@@ -1,5 +1,5 @@
 The program for performance and stability calculation of various rotor craft - RotaryWingSim
-The version number is 2.0 to distinguish it from the pure helicopter program 1.0. 
+The version number is 2.x to distinguish it from the pure helicopter program 1.0. 
 The program is a beta release which means it is far from complete or thoroughly tested, 
 rather anyone using it is a beta tester and I would appreciate your contributions to enhance the program. 
 Throughout the four years of working on this program I have made numerous attempts to find people supporting my effort, 
