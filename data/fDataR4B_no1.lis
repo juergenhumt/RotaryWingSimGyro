@@ -1,0 +1,295 @@
+reading aircraft data from ./data/RotDatR4B_1.dat
+reading Flight Data from ./data/fDataR4B_no1.flt
+reading Rotor Data from ./data/fDataR4B_no1.flt
+
+
+#### RotaryWingSim ####
+rhoAir          1.1553 kg/m°
+thtaN    2.50°   twist     0.00°
+mHeli          2546.00 lb
+aBlade          4.83 m^2
+
+rRotTR       1.91 m
+nRotTR       1662.7 1/min
+oMTR    174.12
+oMRTR   139.48 m/s    oMRTR   457.63 ft/s
+sigmaTR   0.0173
+
+Area Mrot     105.36 m^2
+m blade         5.4 kg
+I blade        60.9 kg*m^2 estimated
+gamRot         15.0000
+sigma           0.0459
+
+
+Trim phi       0.00°    thta      -2.10°    psi      -0.10°   
+vH      45.99 mph     vV       1080 fpm
+cTs  0.104236     cT  0.0048     cT2sa  0.0364     cL  0.4097
+m Heli    11329.2 N      fpA        2.1 m^2          23.0 ft^2
+Iyy Heli        2712.8 kg*m^2
+Coordintats x,z    [m]         [ft]
+Rotor      :   0.02   1.68        0.05   5.50
+Rudder     :   7.48   1.52       24.55   5.00
+Fin        :   3.86   0.71       12.65   2.33
+H-Stab     :   4.04   0.02       13.25   0.06
+Wing       :  -1.97   0.00       -6.45   0.00
+Propeller  :  -0.83   0.00       -2.73   0.00
+### Var ###
+mu             24.086  vFlight     42.3 kn
+thtaClmb      -0.2614    -14.9788°
+cTsReq    0.10424    cTReq    0.00478    cT2saReq    0.03638
+alfaD     219.63°    thtaClmb     -14.98°    thtaTrim      -2.10
+trim iter 25     anorm 3.41081e-010
+
+   deriv 3104
+       u                w              q
+x   -0.130046     -0.196708     0.132604
+z   -0.306334     -1.106725     0.201054
+m    0.045482      0.085188    -0.043541
+
+ ====== u - derivatives ===== 
+fMR(1)        -0.030412   fMR(2)         0.002996   fMR(3)        -0.030982
+fTR(1)         0.000000   fTR(2)         0.000000   fTR(3)         0.000000
+fFus(1)       -0.045159   fFus(2)        0.000163   fFus(3)       -0.006885
+fFN(1)        -0.002232   fFN(2)         0.001764   fFN(3)         0.000000
+fHS(1)        -0.000000   fHS(2)         0.000000   fHS(3)        -0.000000
+fPR(1)        -0.000947   fPR(2)         0.000000   fPR(3)         0.000000
+fCG(1)         0.000000   fCG(2)         0.000000   fCG(3)         0.000000
+fR(1)  -9.0297240e-009   fR(2)   5.3194427e-010   fR(3)  -4.1977566e-009
+
+ Moment Equilibrium    1001 
+mMR(1)         0.000369   mMR(2)         0.003713   mMR(3)        -0.000003
+mTR(1)         0.000000   mTR(2)         0.000000   mTR(3)         0.000000
+mFus(1)        0.000000   mFus(2)        0.000154   mFus(3)        0.000476
+mFN(1)         0.000092   mFN(2)         0.000117   mFN(3)        -0.000500
+mHS(1)         0.000000   mHS(2)        -0.000000   mHS(3)         0.000000
+mPR(1)         0.000000   mPR(2)         0.000000   mPR(3)         0.000000
+mR(1)   6.9666406e-010   mR(2)   6.2051520e-009   mR(3)   9.6036956e-011
+QR  2.4106045e-011
+mU  3.9838516e-003
+
+ ====== q - derivatives ===== 
+fMR(1)         0.655252   fMR(2)        -0.559782   fMR(3)         0.111751
+fTR(1)         0.000000   fTR(2)         0.000000   fTR(3)         0.000000
+fFus(1)       -0.012882   fFus(2)        0.000000   fFus(3)       -0.004505
+fFN(1)         0.000000   fFN(2)         0.000000   fFN(3)         0.000000
+fHS(1)         0.000000   fHS(2)         0.000000   fHS(3)        -0.000000
+fPR(1)         0.000000   fPR(2)         0.000000   fPR(3)         0.000000
+fCG(1)         0.000000   fCG(2)         0.000000   fCG(3)         0.000000
+fR(1)   7.4249921e-008   fR(2)  -6.4683880e-008   fR(3)   1.2560593e-008
+
+ Moment Equilibrium    1002 
+mMR(1)        -0.068983   mMR(2)        -0.080623   mMR(3)         0.000627
+mTR(1)         0.000000   mTR(2)         0.000000   mTR(3)         0.000000
+mFus(1)        0.000000   mFus(2)        0.001701   mFus(3)        0.000000
+mFN(1)         0.000000   mFN(2)         0.000000   mFN(3)         0.000000
+mHS(1)         0.000000   mHS(2)        -0.000000   mHS(3)         0.000000
+mPR(1)         0.000000   mPR(2)         0.000000   mPR(3)         0.000000
+mR(1)  -1.0840296e-007   mR(2)  -1.2404199e-007   mR(3)   1.1232970e-009
+QR -4.0691279e-011
+
+ ====== w - derivatives ===== 
+fMR(1)        -0.006352   fMR(2)        -0.008280   fMR(3)        -0.788872
+fTR(1)         0.000000   fTR(2)         0.000000   fTR(3)         0.000000
+fFus(1)       -0.051753   fFus(2)        0.000000   fFus(3)       -0.013039
+fFN(1)         0.000000   fFN(2)         0.000000   fFN(3)         0.000000
+fHS(1)         0.000000   fHS(2)         0.000000   fHS(3)        -0.000000
+fPR(1)         0.000000   fPR(2)         0.000000   fPR(3)         0.000000
+fCG(1)         0.000000   fCG(2)         0.000000   fCG(3)         0.000000
+fR(1)  -6.6455405e-009   fR(2)  -9.9281827e-010   fR(3)  -9.2435114e-008
+
+ Moment Equilibrium    1003 
+mMR(1)        -0.001020   mMR(2)        -0.000101   mMR(3)         0.000009
+mTR(1)         0.000000   mTR(2)         0.000000   mTR(3)         0.000000
+mFus(1)        0.000000   mFus(2)        0.006836   mFus(3)        0.000000
+mFN(1)         0.000000   mFN(2)         0.000000   mFN(3)         0.000000
+mHS(1)         0.000000   mHS(2)        -0.000000   mHS(3)         0.000000
+mPR(1)         0.000000   mPR(2)         0.000000   mPR(3)         0.000000
+mR(1)  -1.6312605e-009   mR(2)   1.0527181e-008   mR(3)   1.5263879e-010
+QR  2.4562329e-010
+mW  6.7349191e-003
+
+
+=I=I=I=I=I= Iteration Results =I=I=I=I=I=
+xMR    6.500    xcg    6.450    dxCG    0.050    iRigMR    0.0
+cTs 0.10239   cT 0.00470   cLs 8.76737   cL 0.40209
+aN     0.21481°    a1    0.05400°   b1    0.06267°
+Br   aN    12.31°       a1    3.09°      b1    3.59°
+716  aN    12.31°       a1    2.64°      b1    2.23°
+mu  0.150776 lamD    0.01371    lamI    0.01377     mu*a1    0.00696     lamNf    0.00675
+A1S   -0.01198°    B1S    0.08599°
+A1S    -0.69°    B1S     4.93°    alfD    10.33°   alfaNf     7.69°   alSm    -2.28°
+thtaN      5.91°    thtaTR    -0.04°
+Trim   phi    -0.08°    thta    -2.26°
+vBx    20.71    vBy     0.03    vBz     4.68
+fMR(1)           222.87   fMR(2)            -8.46   fMR(3)        -11155.23
+fTR(1)             0.00   fTR(2)            -0.00   fTR(3)             0.00
+fPR(1)           176.54   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)         -817.60   fFus(2)            3.90   fFus(3)         -165.21
+fFN(1)           -27.65   fFN(2)            19.93   fFN(3)             0.00
+fHS(1)            -0.00   fHS(2)             0.00   fHS(3)             0.00
+fCG(1)           445.84   fCG(2)           -15.38   fCG(3)         11320.45
+fWN(1)            -0.00   fWN(2)             0.00   fWN(3)             0.00
+fR(1)   3.9330198e-009   fR(2)  -2.1460345e-010   fR(3)  -7.2095174e-008
+
+Moment Equilibrium
+mMR(1)           -14.17   mMR(2)          -543.62   mMR(3)             0.13
+mTR(1)            -0.00   mTR(2)             0.00   mTR(3)             0.00
+mPR(1)             0.00   mPR(2)            -0.00   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)          523.96   mFus(3)           76.72
+mFN(1)            14.17   mFN(2)            19.66   mFN(3)           -76.85
+mHS(1)             0.00   mHS(2)             0.00   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)            -0.00   mWN(3)             0.00
+mR(1)  -3.2666136e-010   mR(2)  -7.4955472e-009   mR(3)   1.4078694e-010
+==x=x===x===x=x==
+MR Fx   222.87    Fz -11155.23   thtaClmb   -14.98   torque     0.00
+dxMR    0.0487  Fx/Fz   -1.1°        mu   0.15078   oM  24.1  n  230.0
+
+=I=I=I=I=I= End Of Iteration Results =I=I=I=I=I=
+
+
+         ### stability derivatives ###
+ R ._. R ._. << RotaryWingSim Data >> ._. R ._. R
+
+       u              w            q         oM
+x   -0.078750     -0.058105     0.642370     0.033495
+z   -0.037865     -0.801913     0.107246    -0.625789
+m    0.003984      0.006735    -0.078921    -0.004737
+
+      measured  data
+       u                w              q
+x   -0.090000       0.110000        0.092100
+z    0.010000      -1.100000        0.140000
+m    0.007000       0.005000       -0.025000
+
+Q    0.000000      -0.000000        0.000000       -0.000000
+
+Xu      -0.078750        -90.95
+Xw      -0.058105        -67.10
+Xq       0.642370       1742.62
+Zu      -0.037865        -43.73
+Zw      -0.801913       -926.10
+Zwd      0.000000          0.00
+Zq       0.107246        290.94
+Mu       0.003984          4.60
+Mw       0.006735          7.78
+Mwd      0.000000          0.00
+Mq      -0.078921       -214.10
+
+##### SP and PH Mode ----- approximation ###
+----- Short Period Mode -----
+negative oMg2_SP
+
+----- Phugoid Mode -----
+negative oMg2_PH
+
+##### SP and PH Mode from quartic #####
+A        1.000         1.000
+B        0.960         0.960
+C        0.011         0.011
+D        0.052         0.052
+E        0.029         0.029
+
+Routh D       -0.029
+
+M thta        -0.000 
+
+z1  -0.97195    0.00000j
+z2   0.14679    0.28976j
+z3   0.14679   -0.28976j
+z4  -0.28122    0.00000j
+
+       Short Period                Phugoid
+1   1.95273  0.00000j        0.82664  0.00000j
+2  -0.07364  0.00000j       -1.33868  0.00000j
+3   0.00611  0.00000j        0.00100  0.00000j
+4  -0.04747  0.00000j        0.01664  0.00000j
+
+
+----- Phugoid Mode -----
+omega PH         0.3248
+zeta  PH         0.4519
+period PH       21.6845
+tHalf  PH        4.7219
+N half PH        0.2178
+
+----- Short Period Mode -----
+omega SP         0.2812
+zeta  SP        -1.0000
+period SP   --------
+tHalf  SP        2.4648
+N half SP        0.0000
+
+omega SP         0.9720
+zeta  SP        -1.0000
+period SP   --------
+tHalf  SP        0.7132
+N half SP        0.0000
+
+
+ M _ _ M _ _ << Measured Data >> _ _ M _ _ M
+Xu      -0.090000       -103.94
+Xw       0.110000        127.04
+Xq       0.092100        249.85
+Zu       0.010000         11.55
+Zw      -1.100000      -1270.35
+Zwd      0.000000          0.00
+Zq       0.140000        379.79
+Mu       0.007000          8.08
+Mw       0.005000          5.77
+Mwd      0.000000          0.00
+Mq      -0.025000        -67.82
+
+##### SP and PH Mode ----- approximation ###
+----- Short Period Mode -----
+negative oMg2_SP
+
+----- Phugoid Mode -----
+negative oMg2_PH
+
+##### SP and PH Mode from quartic #####
+A        1.000         1.000
+B        1.215         1.215
+C        0.062         0.062
+D        0.088         0.088
+E        0.076         0.076
+
+Routh D       -0.113
+
+M thta        -0.000 
+
+z1  -1.17899    0.00000j
+z2   0.18024    0.36077j
+z3   0.18024   -0.36077j
+z4  -0.39649    0.00000j
+
+       Short Period                Phugoid
+1  -1.92736  0.00000j       -0.84181  0.00000j
+2  -0.04173  0.00000j       -0.63582  0.00000j
+3  -0.01083  0.00000j        0.01649  0.00000j
+4   0.05858  0.00000j       -0.03528  0.00000j
+
+
+----- Phugoid Mode -----
+omega PH         0.4033
+zeta  PH         0.4469
+period PH       17.4159
+tHalf  PH        3.8458
+N half PH        0.2208
+
+----- Short Period Mode -----
+omega SP         0.3965
+zeta  SP        -1.0000
+period SP   --------
+tHalf  SP        1.7482
+N half SP        0.0000
+
+omega SP         1.1790
+zeta  SP        -1.0000
+period SP   --------
+tHalf  SP        0.5879
+N half SP        0.0000
+
+dlc    10.53   dla    3.36   dle    0.39      dlp    0.03      dlt    0.06
+thtaN   5.91°   A1S  -0.69°   B1S   4.93°   thtaTR  -0.04°
+TrimAC phi LFr      -0.08°    thta      -2.26°    psi      -0.10°

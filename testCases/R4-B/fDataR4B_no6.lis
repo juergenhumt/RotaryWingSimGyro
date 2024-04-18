@@ -1,0 +1,45 @@
+reading aircraft data from ./testCases/R4-B/RotDatR4B_Fa.dat
+reading Flight Data from ./testCases/R4-B/fDataR4B_no6.flt
+reading Rotor Data from ./testCases/R4-B/fDataR4B_no6.flt
+
+
+    #### RotaryWingSim ####
+rhoAir        1.1406 kg/m³
+thtaN    3.50°   twist    -8.00°
+mHeli          2533.00 lb
+
+nRot      223.0 1/min    oM     23.35 rad/s
+oMR       135.24 m/s     oMR   443.70 ft/s
+aBlade          4.43 m^2
+
+rRotTR       1.91 m
+nRotTR       1662.7 1/min
+oMTR    174.12
+oMRTR   135.24 m/s    oMRTR   443.70 ft/s
+sigmaTR   0.0173
+
+Area Mrot     105.36 m^2
+m blade         5.4 kg
+I blade        60.9 kg*m^2 estimated
+gamRot         15.0000
+sigma           0.0420
+
+
+Trim phi       0.00°    thta      -2.40°    psi       0.00°   
+vH      42.51 mph     vV       1080 fpm
+cTs  0.121982     cT  0.0051     cT2sa  0.0426     cL  0.4778
+m Heli    11271.4 N      fpA        1.9 m^2          20.0 ft^2
+Iyy Heli        2712.8 kg*m^2
+Coordintats x,z    [m]         [ft]
+Rotor      :   0.02   1.68        0.07   5.50
+Rudder     :   7.49   1.52       24.57   5.00
+Fin        :   3.86   0.71       12.67   2.33
+H-Stab     :   4.04   0.02       13.27   0.06
+Wing       :  -1.96   0.00       -6.43   0.00
+Propeller  :  -0.83   0.00       -2.71   0.00
+### Var ###
+mu             23.353  vFlight     39.3 kn
+thtaClmb      -0.2818    -16.1464°
+cTsReq    0.12198    cTReq    0.00512    cT2saReq    0.04258
+alfaD     212.95°    thtaClmb     -16.15°    thtaTrim      -2.40
+trim iter 26     anorm 7.10165e-010

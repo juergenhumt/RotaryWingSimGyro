@@ -1,0 +1,174 @@
+reading aircraft data from ./data/S-51a/RotDatS-51_1.dat
+reading Flight Data from ./data/S-51a/fDataS-51_mu05.flt
+reading Rotor Data from ./data/S-51a/fDataS-51_mu05.flt
+
+
+#### RotaryWingSim ####
+rhoAir          1.2261 kg/m°
+thtaN    9.68°   twist    -0.88°
+mHeli          4958.00 lb
+
+nRot   oMR       146.30 m/s     oMR   480.00 ft/s
+aBlade         10.09 m^2
+
+rRotTR       1.30 m
+nRotTR       1662.7 1/min
+oMTR    174.12
+oMRTR   146.30 m/s    oMRTR   480.00 ft/s
+sigmaTR   0.1049
+
+Area Mrot     168.11 m^2
+m blade        93.9 kg
+I blade       379.8 kg*m^2
+gamRot         11.2700
+sigma           0.0600
+
+
+Trim phi       0.00°    thta      -0.10°    psi      -0.10°   
+vH      16.39 mph     vV          0 fpm
+cTs  0.083340     cT  0.0050     cT2sa  0.0290     cL  3.9780
+m Heli    22062.2 N      fpA        1.1 m^2          12.3 ft^2
+Iyy Heli       14680.3 kg*m^2
+Coordintats x,z    [m]         [ft]
+Rotor      :   0.00   1.83        0.00   6.00
+Rudder     :   8.62   1.83       28.29   6.00
+Fin        :   7.71   2.84       25.29   9.33
+H-Stab     :   6.09   0.50       19.99   1.64
+Wing       :  -3.39   0.00      -11.13   0.00
+Propeller  :  -2.26   0.00       -7.40   0.00
+### Var ###
+mu             20.000  vFlight     14.6 kn
+thtaClmb      -0.0000     -0.0000°
+cTsReq    0.08334    cTReq    0.00500    cT2saReq    0.02900
+alfaD   10942.69°    thtaClmb      -0.00°    thtaTrim      -0.10
+trim iter 57     anorm        NaN
+
+   deriv 3104
+       u                w              q
+x         NaN           NaN          NaN
+z         NaN           NaN          NaN
+m         NaN           NaN          NaN
+
+ ====== u - derivatives ===== 
+fMR(1)              NaN   fMR(2)              NaN   fMR(3)              NaN
+fTR(1)         0.000000   fTR(2)              NaN   fTR(3)         0.000000
+fFus(1)             NaN   fFus(2)             NaN   fFus(3)             NaN
+fFN(1)              NaN   fFN(2)              NaN   fFN(3)         0.000000
+fHS(1)              NaN   fHS(2)         0.000000   fHS(3)              NaN
+fPR(1)              NaN   fPR(2)              NaN   fPR(3)              NaN
+fCG(1)              NaN   fCG(2)              NaN   fCG(3)              NaN
+fR(1)              NaN   fR(2)              NaN   fR(3)              NaN
+
+ Moment Equilibrium    1001 
+mMR(1)              NaN   mMR(2)              NaN   mMR(3)              NaN
+mTR(1)              NaN   mTR(2)         0.000000   mTR(3)              NaN
+mFus(1)        0.000000   mFus(2)             NaN   mFus(3)             NaN
+mFN(1)              NaN   mFN(2)              NaN   mFN(3)              NaN
+mHS(1)         0.000000   mHS(2)              NaN   mHS(3)         0.000000
+mPR(1)         0.000000   mPR(2)              NaN   mPR(3)         0.000000
+mR(1)              NaN   mR(2)              NaN   mR(3)              NaN
+QR             NaN
+mU             NaN
+
+ ====== q - derivatives ===== 
+fMR(1)              NaN   fMR(2)              NaN   fMR(3)              NaN
+fTR(1)         0.000000   fTR(2)              NaN   fTR(3)         0.000000
+fFus(1)             NaN   fFus(2)             NaN   fFus(3)             NaN
+fFN(1)              NaN   fFN(2)              NaN   fFN(3)         0.000000
+fHS(1)              NaN   fHS(2)         0.000000   fHS(3)              NaN
+fPR(1)              NaN   fPR(2)              NaN   fPR(3)              NaN
+fCG(1)              NaN   fCG(2)              NaN   fCG(3)              NaN
+fR(1)              NaN   fR(2)              NaN   fR(3)              NaN
+
+ Moment Equilibrium    1002 
+mMR(1)              NaN   mMR(2)              NaN   mMR(3)              NaN
+mTR(1)              NaN   mTR(2)         0.000000   mTR(3)              NaN
+mFus(1)        0.000000   mFus(2)             NaN   mFus(3)             NaN
+mFN(1)              NaN   mFN(2)              NaN   mFN(3)              NaN
+mHS(1)         0.000000   mHS(2)              NaN   mHS(3)         0.000000
+mPR(1)         0.000000   mPR(2)              NaN   mPR(3)         0.000000
+mR(1)              NaN   mR(2)              NaN   mR(3)              NaN
+QR             NaN
+
+ ====== w - derivatives ===== 
+fMR(1)              NaN   fMR(2)              NaN   fMR(3)              NaN
+fTR(1)         0.000000   fTR(2)              NaN   fTR(3)         0.000000
+fFus(1)             NaN   fFus(2)             NaN   fFus(3)             NaN
+fFN(1)              NaN   fFN(2)              NaN   fFN(3)         0.000000
+fHS(1)              NaN   fHS(2)         0.000000   fHS(3)              NaN
+fPR(1)              NaN   fPR(2)              NaN   fPR(3)              NaN
+fCG(1)              NaN   fCG(2)              NaN   fCG(3)              NaN
+fR(1)              NaN   fR(2)              NaN   fR(3)              NaN
+
+ Moment Equilibrium    1003 
+mMR(1)              NaN   mMR(2)              NaN   mMR(3)              NaN
+mTR(1)              NaN   mTR(2)         0.000000   mTR(3)              NaN
+mFus(1)        0.000000   mFus(2)             NaN   mFus(3)             NaN
+mFN(1)              NaN   mFN(2)              NaN   mFN(3)              NaN
+mHS(1)         0.000000   mHS(2)              NaN   mHS(3)         0.000000
+mPR(1)         0.000000   mPR(2)              NaN   mPR(3)         0.000000
+mR(1)              NaN   mR(2)              NaN   mR(3)              NaN
+QR             NaN
+mW             NaN
+
+
+=I=I=I=I=I= Iteration Results =I=I=I=I=I=
+xMR   11.125    xcg   11.125    dxCG    0.000    iRigMR    0.0
+cTs     NaN   cT     NaN   cLs     NaN   cL     NaN
+aN         NaN°    a1        NaN°   b1        NaN°
+Br   aN      NaN°       a1     NaN°      b1     NaN°
+716  aN      NaN°       a1     NaN°      b1     NaN°
+mu       NaN lamD        NaN    lamI        NaN     mu*a1        NaN     lamNf        NaN
+A1S        NaN°    B1S        NaN°
+A1S      NaN°    B1S      NaN°    alfD      NaN°   alfaNf      NaN°   alSm      NaN°
+thtaN       NaN°    thtaTR      NaN°
+Trim   phi      NaN°    thta      NaN°
+vBx      NaN    vBy      NaN    vBz      NaN
+fMR(1)              NaN   fMR(2)              NaN   fMR(3)              NaN
+fTR(1)             0.00   fTR(2)              NaN   fTR(3)             0.00
+fPR(1)              NaN   fPR(2)              NaN   fPR(3)              NaN
+fFus(1)             NaN   fFus(2)             NaN   fFus(3)             NaN
+fFN(1)              NaN   fFN(2)              NaN   fFN(3)             0.00
+fHS(1)              NaN   fHS(2)             0.00   fHS(3)              NaN
+fCG(1)              NaN   fCG(2)              NaN   fCG(3)              NaN
+fWN(1)              NaN   fWN(2)              NaN   fWN(3)              NaN
+fR(1)              NaN   fR(2)              NaN   fR(3)              NaN
+
+Moment Equilibrium
+mMR(1)              NaN   mMR(2)              NaN   mMR(3)              NaN
+mTR(1)              NaN   mTR(2)             0.00   mTR(3)              NaN
+mPR(1)             0.00   mPR(2)              NaN   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)             NaN   mFus(3)             NaN
+mFN(1)              NaN   mFN(2)              NaN   mFN(3)              NaN
+mHS(1)             0.00   mHS(2)              NaN   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)              NaN   mWN(3)             0.00
+mR(1)              NaN   mR(2)              NaN   mR(3)              NaN
+==x=x===x===x=x==
+MR Fx      NaN    Fz      NaN   thtaClmb    -0.00   torque      NaN
+dxMR       NaN  Fx/Fz    NaN°        mu       NaN   oM  20.0  n  191.0
+
+=I=I=I=I=I= End Of Iteration Results =I=I=I=I=I=
+
+
+         ### stability derivatives ###
+ R ._. R ._. << RotaryWingSim Data >> ._. R ._. R
+
+       u              w            q         oM
+x         NaN           NaN          NaN          NaN
+z         NaN           NaN          NaN          NaN
+m         NaN           NaN          NaN          NaN
+
+      measured  data
+       u                w              q
+x   -0.067000       0.030000        0.100000
+z   -0.100000      -1.234900       -1.100000
+m    0.008000       0.030000       -0.025000
+
+Q         NaN            NaN             NaN             NaN
+
+Xu            NaN           NaN
+Xw            NaN           NaN
+Xq            NaN           NaN
+Zu            NaN           NaN
+Zw            NaN           NaN
+Zwd      0.000000     

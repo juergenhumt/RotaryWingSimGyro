@@ -1,0 +1,274 @@
+>> reading aircraft data from ./testCases/PCA/PCA2.dat
+Twist NOT included
+# fuselage coefficients   ./testCases/PCA/PrtyCoeff.cff   #
+# rotor angle coefficients   ./testCases/PCA/KD1_mmt.cff   #
+# cL cD coefficients for power  ./testCases/PCA/cL_alf.cff   #
+# Data   ./testCases/PCA/fDataPCA-2_475_5.flt   #
+Start reading Flight Data section
+End reading Flight Data section
+# Data   ./testCases/PCA/fDataPCA-2_475_5.flt   #
+Start reading Rotor Data section
+End reading Rotor Data section
+cTs   0.07889619     cT  0.0077     cT2sa  0.0277     cL  0.3768
+rRot     6.86     sigma  0.0976
+##     Reading # Data   ./data/cntrlrS51.cnt   #
+Start reading control data
+End read controler data
+autogyro mode: iterating oM
+#3 phiHS   0.00   xh   0.07   ZHS      -1.61
+           dlc           dle           dla           dlp           phiFus        thtaFus       oM
+1  tN     2.480e+002    9.149e-002   -4.895e+002    3.019e+003    1.267e+002   -2.006e+004   -1.432e+002
+2  A1     2.408e+001    1.499e+002    7.833e+002    0.000e+000    1.282e+004   -1.680e+003   -2.580e+001
+3  B1     3.556e+002   -1.218e+001    0.000e+000    1.054e+002   -2.699e+002   -3.438e+004   -8.760e+002
+4  tT     7.008e+001    5.698e+002    3.183e+002    0.000e+000   -3.359e+002   -5.388e+003   -2.308e+002
+5  fi    -6.986e+002   -6.342e+000    1.989e+002   -6.839e+001   -6.064e+001   -6.763e+002    4.557e+002
+6  tH    -8.317e+000   -5.179e+001   -1.906e+003    0.000e+000    5.851e+002    1.697e+002    8.912e+000
+7  oM    -1.682e-001    1.300e-003    0.000e+000    0.000e+000    1.203e-001    1.323e+001   -3.005e-001
+Det 6.7142697e+020
+           dlc           dle           dla           dlp           phiFus        thtaFus       oM
+1  tN    -1.879e-005    1.555e-006   -3.518e-004   -3.389e-005   -1.372e-003   -1.434e-004   -1.024e+000
+2  A1     1.388e-005    2.664e-005   -3.691e-004    1.769e-003    4.379e-005    3.074e-004   -2.160e-001
+3  B1    -1.791e-007    2.262e-005    7.506e-006   -5.338e-005    3.667e-006   -5.239e-004    7.278e-003
+4  tT     3.355e-004   -3.852e-006   -1.168e-004   -9.899e-006    1.087e-005   -8.826e-005    2.023e-001
+5  fi    -3.677e-008    7.622e-005    9.837e-007   -1.746e-005   -1.067e-007    2.840e-005    4.698e-003
+6  tH     2.642e-007   -6.416e-007   -1.788e-005   -6.460e-007   -1.591e-005   -2.099e-006    2.838e-002
+7  oM     2.220e-005    1.494e-006   -5.916e-004   -8.805e-006    6.801e-005    5.399e-007   -1.504e+000
+Det 1.4893653e-021
+#3 phiHS   0.03   xh   1.89   ZHS     -49.42
+#1 phiWN   0.24   xh 843105.91   ZWN    1360.40
+
+==a=a=== frc func ===a=a==
+xMR    6.250    xcg    5.117    dxCG    1.133    iRigMR    0.0
+cTs 0.06804   cT 0.00664   cLs 3.38468   cL 0.33040
+mu  0.193  mu/laHov 3.16350  thtaN/cTs 0.68746  cTs_cr 0.01356  cTs_cr/cTs 0.19936
+Qrot[Nm]        0.0   P[kW]    0.00   P[hp]    0.00          dQ  2.2e-016
+aN     0.14070°    a1    0.03673°   b1    0.06018°
+Br   aN     8.06°       a1    2.10°      b1    3.45°
+716  aN     7.22°       a1    1.75°      b1    1.87°
+mmt  aN     7.92°       a1    0.25°      b1    1.98°
+A1S    0.01885°    B1S   -0.04714°
+A1S    1.08°       B1S   -2.70°
+oM 15.144[1/s]   oMR  103.9[m/s]   oMR  340.7[ft/s]    n 144.6   nmmt 196.5 [1/min]
+lamD   0.03239     lamI   0.01707     lamNf    0.02649     lamNf/laHov     0.43355     lammt    0.02096
+alfaNf 12.70°  alfaD   14.45°   alfaS 10.00°   als     4.45°   als_th   115.21°   alNfmmt     9.44° 
+thtaN   2.68°  thta1  -0.95°  thtaClmb -13.36°     thtaTR     0.03°
+Trim   phi    -0.89°    thta    -3.36°    psi     0.00°
+dDrgN   0.0185  dDrg1  -0.0326  dDrg2   0.2000
+vBx    20.27    vBy    -0.06    vBz     3.57 [m/s]   V    67.52 [fps]
+vEx    44.91    vEy     0.00    vEz  -935.84 [fpm]   V    46.16 [mph]
+### heli deriv 3104 ###
+cHstrt     0.00089
+alfaD      14.448°
+lamDstrt     0.21005
+cTs        0.06804  cT      0.00664
+a1 br D      1.575°   a1 Br D mod      1.728°  a1 716      1.716°
+b1 br D      0.000°   b1 Br D mod      0.000°  b1 716      1.905°
+lamD    0.02649   lamN    0.02070  lamI    0.01707  vi    5.81658
+thtaN calc      2.863°
+hC Pr       0.00111  hC Br       0.00121
+alfaD      11.562°
+alfaDclc     13.144°  alfaDinp     11.562°   alfaD     11.562°
+qCsBram    0.00108   qCBram    0.00011
+aPr       1.018°
+dhcdmu    0.00435
+dlamdalfaNf     0.15368
+dlamIthtan    0.17237
+dlamdthtan   -0.17237
+dv1dthtaN  -17.70029   dLamDthtaN
+dv1dthtaN   -0.17043   dLamDthtaN
+aN        7.287°
+## a1 deriv ##
+4/3*B*thta + lam     0.07090
+da1dmu        0.13845
+da1dmu        0.23168
+da1dmu 716    0.14758
+da1dthtaN     0.45171
+da1dthtaN716    0.41673
+da1dlam716    0.54444
+da1alfaNf 716    0.11756
+da1dalfNf    0.05017
+da1dw        0.28973
+da1dalfD     0.06536
+da1dq        -0.07665
+## b1 deriv ##
+b1 br D      3.246°
+db1dthtaN    0.45171
+db1dalfNf    0.05017
+db1dmu       0.01380
+db1dmu       0.73423
+## cTs deriv ##
+dcTsdthtaN    0.73707   dcTdthtaN     0.07195
+dcTsdalfaD    0.19061   dcTdalfaD    0.01861
+dcTsalfaNf    0.20011   dcTdalfaNf    0.01953
+dcTsdmu (2)   0.29101   dcTdmu        0.02841
+dcTsdmu (3)   0.30727   dcTdmu        0.02999
+dcTsdmu (4)   0.30481   dcTdmu        0.02975
+dcTsdw                     -0.86168
+dcTsdw                     -1.04795
+## cTs deriv autorotation ##
+## cHs deriv ##
+dcHsdthtaN    0.06314   dcHdthtaN     0.00616
+dcHsalfaNf    0.01182   dcHdalfaNf    0.00115
+dcHsmu        0.01350   dcHdmu        0.00132
+dcHsdq                   0.00157
+dhcdmu                  0.00925
+dcHsdw                   0.01164
+dcHsdalfaD               0.00248
+## cQs deriv ##
+dcQsdthtaN   -0.02121   dcQdthtaN     0.00616
+dcQsdalfaNf   -0.10650   dcQdalfaNf   -0.01040
+dcQsdmu        2.07198   dcQdmu    0.20226
+## aPr deriv ##
+daPrdthtaN    0.73542
+daPralfaNf    0.12149
+daPrdmu        0.23168
+daPrdq   -0.09213
+
+### Tail Deriv ###
+vIx         2.9738
+epsDwn       0.1481      8.4868°
+epsMH        0.1766     10.1193°
+cMs      0.003534
+xh         -0.3717    -21.2988°
+a1sBR         0.1984     11.3695°
+jB           Stability Parameters
+xU=   -cTs*da1dmu           - alfaD*dcTsdMu      - dhcdmu
+-  0.068040*  0.231679 -  -0.225356*  0.307270 -   0.001318
+xW=  -cTs*da1dalfaD        - alfaD*dcTsdalfaD      - dhcdalfaD
+-  0.068040*  0.065357 -  -0.225356*  0.190605 -   0.002481
+xU       0.009331
+xW       0.186366
+xW      -0.267513
+xQ       0.093361
+zU      -0.307270
+zW      -0.986020
+zQ       0.217119
+dlamIdmu        -0.0151  dlamNfdmu     1.0151°
+alfaS     -17.361°
+mU       0.046904 + mUT  -0.127549  =  -0.080645
+mW       0.724033 + mWT  -0.051368  =   0.672664
+mQ      -0.226094 + mQT  -0.157131  =  -0.383225
+
+   deriv 3104
+       u                w              q
+x    0.009331     -0.267513     0.093361
+z   -0.307270     -0.986020     0.217119
+m   -0.011759      0.098085    -0.055880
+
+    measured  data
+       u                w              q
+x   -0.090000       0.110000        0.092100
+z    0.010000      -1.100000        0.140000
+m    0.007000       0.005000       -0.025000
+
+B1Br       -0.1365     -7.8184°
+thtaFus       -0.2146    -12.2949°
+### End Deriv 3104 ###
+
+### Heli Deriv NL ###
+
+### End  Deriv NL ###
+
+PvL -0.00   DvLN   0.18361    lamNf   0.02649
+MR     Fx  -949.97   Fz -11477.10   Fx/Fz    4.7°    Fx/Fz2    4.7°    dxMR    0.1941
+
+MR dsk Fx   408.02    Fz 11511.08
+fMR(1)          -949.97   fMR(2)           213.03   fMR(3)        -11477.10
+fTR(1)             0.00   fTR(2)             0.00   fTR(3)             0.00
+fPR(1)          1049.36   fPR(2)             0.00   fPR(3)            36.64
+fFus(1)         -500.84   fFus(2)           -5.06   fFus(3)          -45.01
+fFN(1)           -42.90   fFN(2)            -7.80   fFN(3)             0.00
+fHS(1)           -37.73   fHS(2)             0.00   fHS(3)           -49.42
+fCG(1)           755.72   fCG(2)          -200.17   fCG(3)         12880.76
+fWN(1)          -273.64   fWN(2)             0.00   fWN(3)         -1345.88
+fR(1)  -5.2295945e-012   fR(2)  -9.1148422e-011   fR(3)  -9.2313712e-011
+fR(3)          -2579.2   fW(3)           -302.5   [lb]
+Moment Equilibrium
+mMR(1)             3.17   mMR(2)           -50.30   mMR(3)           -73.59
+mTR(1)             0.00   mTR(2)             0.00   mTR(3)            -0.00
+mPR(1)             0.00   mPR(2)           -23.77   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)            0.00   mFus(3)           54.61
+mFN(1)            -3.17   mFN(2)            17.44   mFN(3)            18.98
+mHS(1)             0.00   mHS(2)          -118.02   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)           174.66   mWN(3)             0.00
+mR(1)  -2.4115066e-010   mR(2)   1.9855406e-010   mR(3)   9.9269926e-011
+==x=x=== end frc func ===x=x==
+
+      RotaryWingSim  
+       u                w              q
+x   -0.068551      -0.168911        0.483859
+z   -0.281814      -1.447530        0.187188
+m    0.000594      -0.063509       -0.642756
+
+      Measured  Data
+       u                w              q
+x   -0.090000       0.110000        0.092100
+z    0.010000      -1.100000        0.140000
+m    0.007000       0.005000       -0.025000
+
+E =   0.01876    32456.37
+z1  -1.04002    0.98736j
+z2  -1.04002   -0.98736j
+z3  -0.03940    0.30031j
+z4  -0.03940   -0.30031j
+
+Routh D        0.758
+
+                                                         
+        Eigenvalue            Damping     Freq. (rad/s)  
+                                                         
+ -4.88e-002 + 2.99e-001i     1.61e-001      3.03e-001    
+ -4.88e-002 - 2.99e-001i     1.61e-001      3.03e-001    
+ -1.01e+000 + 1.02e+000i     7.06e-001      1.43e+000    
+ -1.01e+000 - 1.02e+000i     7.06e-001      1.43e+000    
+                                                         
+-1.01102    1.01561j
+-1.01102   -1.01561j
+-0.04882    0.29910j
+-0.04882   -0.29910j
+
+-1.04002    0.98736j
+-1.04002   -0.98736j
+-0.03940    0.30031j
+-0.03940   -0.30031j
+E =   0.00775    13410.46
+z1  -1.16813    0.00000j
+z2  -0.41204    0.00000j
+z3   0.18259    0.34907j
+z4   0.18259   -0.34907j
+
+Routh D       -0.110
+
+                                                         
+        Eigenvalue            Damping     Freq. (rad/s)  
+                                                         
+  1.78e-001 + 3.58e-001i    -4.45e-001      4.00e-001    
+  1.78e-001 - 3.58e-001i    -4.45e-001      4.00e-001    
+ -3.86e-001                  1.00e+000      3.86e-001    
+ -1.15e+000                  1.00e+000      1.15e+000    
+                                                         
+ 0.17803    0.35807j
+ 0.17803   -0.35807j
+-0.38644   
+-1.15487   
+
+-1.16813   
+-0.41204   
+ 0.18259    0.34907j
+ 0.18259   -0.34907j
+autogyro mode: iterating oM
+autogyro mode: iterating oM
+autogyro mode: iterating oM
+DoMDu   -0.026734      0.378808
+DoMDw   -0.044391      2.107008
+DoMDq    0.000266     -0.685727
+DoM_it   0.000000    
+      oM deriv
+       u                w              q
+x   -0.020164     -0.112158     0.036502
+z   -0.220333     -1.225534     0.398851
+m    0.023668      0.131646    -0.042844
+DvLr    0.27192 = DvLN   0.18361 + DvLi   0.08831
+mu      0.19331   cTs    0.06824   cT     0.00666
+tht75      1.97   cLs    3.39891   cL     0.33178
+>> 

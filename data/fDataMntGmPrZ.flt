@@ -1,0 +1,60 @@
+% Rotor Data Section
+% 
+	0 				% currently not used
+	0 				% currently not used
+	1    			% iteration type: 0-> iterate thtaN
+%                             1-> iterate oM   
+%                             2-> helicopter mode  
+% Main rotor initial guesses
+    4.5     % Collective
+   -0.0259   % lat Cyclic
+    2.2681   % lng Cyclic
+   27.0   % indcd velocity 
+%
+% Tail rotor initial guesses
+%
+    -0.6729  % Collective
+     0.0  % lat Cyclic
+     0.0  % lng Cyclic
+    1.0 % indcd velocity 
+%
+% Flight Data Section
+%
+% Start position, global coordinates
+    0.0   % pE(1)
+    0.0   % pE(2)
+    0.0   % pE(3)
+% Initial velocities (knots)
+   60.0   % vE(1)
+    0.0   % vE(2)
+    0.0   % vE(3)
+% Initial rotational velocities
+    0.0   % qE(1)
+    0.0   % qE(2)
+    0.0   % qE(3)
+% Initital orientation
+   -0.604  % phi   = aE(1)
+    1.2    % theta = aE(2)
+    0.0    % psi   = aE(3)
+% additional data
+    0.0        % added mass             [lbs ]
+    90         % temperature            [degs F]                  rhoAir
+    1.0        % pressure altitude      [ft    ] if < 0 -> ratio -------
+     0         % main rotor torque      [ft-lbs]        rhoAirNull=1.234kg/m^3
+   39.3        % rotational speed       [oM]
+    0.0        % collective pitch       [deg]
+    19.8        % CG offset              [inch] if <> 0 offset is deduced from main rotor
+               %                               position to give new xCG
+               % Stability Parameters
+               % Reference Values
+  -0.23        %  Xu    (1)             :=: rfrncVal (1-10)
+  -0.205       %  Xw    (2)
+   1.7         %  XqR   (3)
+  -0.1252      %  Zu    (4)
+  -1.18        %  Zw    (5)
+   1.25        %  ZqR   (6)
+  -0.001       %  Mu    (7)
+   0.015       %  Mw    (8)
+  -0.725       %  Mq    (9)
+  -0.009       %  MwDot(10)
+               %

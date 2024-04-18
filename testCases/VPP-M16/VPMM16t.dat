@@ -1,0 +1,153 @@
+               %
+               % Fuselage
+               %
+   994.0       % gross  weight               [lbs ]   :=: mHeliG
+    10.0       % equivalent  flat plate area [ft^2]  :=: fpA
+    17.7       % horizontal projected area   [ft^2]   :=: afH
+    16.0       % vertical  projected  area   [ft^2]   :=: afV
+     0.0       % CG height, waterline  (z)   [ft  ]   :=: zcg
+     2.5      % CG fuselage  station  (x)  [ft  ]    :=: xcg
+     0.0       % CGposition rt of butline (y)[ft  ]   :=: ycg
+   165.8       % Ixx            [slug ft^2]           :=: Ixx
+   642.0       % Iyy            [slug ft^2]          :=: Iyy
+   426.8       % Izz            [slug ft^2]          :=: Izz
+     0.0       % Ixz            [slug ft^2]           :=: Ixz
+     1.0       % downwash ratio [         ]           :=: vfv1
+     0.12      % fuselage lift and..                  :=: CLafus
+     0.0      % moment constant                      :=: Cmfus
+    MntGmPr    % fuselage coefficients
+               %
+               % Main Rotor
+               %
+     0.97      % tip loss factor                                   :=: bTl
+     1.0       % global fudge factor for lift                      :=: cLftGlo
+     1.2       % global fudge factor for drag                      :=: cDrgGlo
+     2         % number of blades      [     ]                     :=: nB
+     2.75      % constant coning angle for teetering rotor [degs ] :=: aN
+    13.5       % Rotor  radius         [ft   ]                     :=: rRot
+     0.722     % blade  chord          [ft   ]                     :=: cHMR
+     1.0       % ratio (blade chord tip)/(blade chord root)        :=: cHtip
+     1.0       % start of tapered section, 1.0 = no taper          :=: xRotT
+     3.5       % blade grip length  (root cut out)[ft   ]          :=: grip
+     0.0       % hinge offset          [ft   ]                     :=: eRot
+     0.0       % blade twist           [degs ]                     :=: thta1
+     2         % blade airfoil No      [     ]                     :=: airfoil
+     5.75      % blade lift curve slope [     ]                     :=: aLift
+     0.0145    % blade drag coefficient                            :=: dDrgN
+    -0.0126    % blade drag coefficient                           :=: dDrg1
+     0.45      % blade drag coefficient                              :=: dDrg2
+     290.0       % rotational velocity   [revs/min]                  :=: nRot
+     0.0       % blade weight (mass)   [lbs  ]                     :=: wBlade
+     0.45      % blade center of gravity location [     ]          :=: xGBlade
+     0.0       % tip weight            [lbs  ]                     :=: tipWeight
+     0.0       % flapping moment of  inertia      [slug ft^2]      :=: iBlade
+     8.0       % rotor Lock number           [   ]                 :=: gamRot
+     6.5       % hub height  above waterline (z) [ft ]             :=: hmd
+     4.5       % hub fuselage  station       (x) [ft ]             :=: lmd
+     0.0       % hubposition rt of butline   (y) [ft ]             :=: ymd
+     0.0       % mast incidence, negative forward [deg]            :=: iRigMR
+               %
+               % Tail rotor
+               %
+     2.0       % number  of blades       [  ] (zero if  NOTAR)     :=: nBTR
+     0.07       % blade  chord root       [ft]                      :=: chTR
+     0.25      % blade  radius           [ft]                      :=: rRotTR
+     5.852     % lift curve  slope       [  ]                      :=: aLiftTR
+     0.009     % blade drag coefficient  [  ]                      :=: dNTR
+   174.1176    % rotational  velocity        [rad/sec]             :=: oMTR
+   200.00      % flapping moment  of inertia [slug ft^2]           :=: IbTR
+     8.0       % TR Lock number                                    :=: gamRotTR
+   -30.00      % delta-3  angle              [deg]                 :=: delta3TR
+     0.00      % blade  twist                [deg]                 :=: thta1TR
+     0.1       % tail rotor & transmission losses [      ]         :=: trPwrRatio 
+     0.0      % TR height  above waterline (z) [ft]                :=: htd
+    31.0   % TR fuselage  station       (x) [ft]                   :=: ltd
+     0.00      % TR position rt of butline  (y) [ft]               :=: ytd
+               %                                                   
+               % Wing
+               %
+     0.0001   % area              [ft^2]                          :=: aWing
+     30.0       % span              [ft  ]                          :=: bWing
+     0.00      % CL              [    ]                            :=: CLwing
+     1.0      % CDo             [    ]                            :=: CDowing
+     0.0       % tip  chor           [ft  ]                        :=: cTwing
+     2.5       % root chord          [ft  ]                        :=: cRwing
+     0.00      % Wing efficiency factor      [    ]                :=: eWing
+     0.00      % zero lift angle             [deg ]                :=: alpnWing
+     1.70      % angle  of incidence         [deg ]                :=: iRigWing
+     4.20      % lift curve  slope           [    ]                :=: aliftWing
+    -0.0       % height  above waterline     [ft  ]                :=: hwd
+    4.55       % fuselage  station           [ft  ]                :=: lwd
+     0.0       % position right of butline   [ft  ]                :=: ywd
+     0.00      % rotor downwash  ratio       [    ]                :=: vwv1
+     0.00      % fuselage  downwash  ratio   [    ]                :=: detafdalpfw
+               %
+               % Horizontal Stabilizer
+               %
+     9.5       % area             [ft^2]                 :=: aHoriz
+     6.75      % span             [ft  ]                 :=: bHoriz
+     3.5       % CL                                      :=: CLHoriz
+     0.0045    % CDo              [    ]                 :=: CDohoriz
+     4.50      % lift curve slope [    ]                 :=: aLiftHoriz
+     0.00      % zero  lift angle          [deg ]        :=: alpNh
+     0.0      % angle  of incidence       [deg ]        :=: iRigHS
+     0.064      % height, waterline         [ft  ]        :=: hhd
+     10.7       % fuselage  station         [ft  ]        :=: lhd
+     0.0       % position right of butline [ft  ]        :=: yhd
+     2.60      % dynamic pressure  ratio   [    ]        :=: qhq5
+     1.0      % rotor downwash  ratio     [    ]        :=: vhv1
+     1.20      % fuselage  downwash  ratio [    ]        :=: detafdalpfh
+               %
+               % Vertical  Fin
+               %
+     4.0       % area           [ft^2]                   :=: aVert
+     4.5       % span           [ft  ]                   :=: bVert
+     1.020     % CL             [    ]                   :=: CLvert
+     0.145     % CDo            [    ]                   :=: CDovert
+     4.70      % lift curve  slope           [    ]      :=: aLiftVert
+     4.3333    % height above  waterline     [ft  ]      :=: hvd
+     14.1      % fuselage  station           [ft  ]      :=: lvd
+     0.0       % position right of butline   [ft  ]      :=: yvd
+     0.00      % zero lift angle             [deg ]      :=: alpNv
+     0.60      % dynamic pressure  ratio     [    ]      :=: qvq
+               %
+               % Control Slopes & Rigging Angles
+               %
+  0.0127       % long cyclic pitch/inch defl [deg/in  ]  :=: db1mddele
+  0.0109       % lat cyclic  pitch/inch defl [deg/in  ]  :=: da1mddela
+  0.0098       % collective  pitch/inch defl [deg/in  ]  :=: dthetomddelc
+ -0.0280       % tail rotor pitch change/defl[deg/in  ]  :=: dthetotddelp
+  0.0          % control until full rudder               :=: maxr
+ -0.0486;      % rigging angle lateral cyclic [rad]      :=: A1CL
+  0.081;       % rigging angle longitudinal cyclic [rad] :=: B1CL
+  0.119;       % rigging angle TR collective for zero... :=: TRCL
+               % ...pedal travel [rad]
+               %  Stabilizer Bar Time Constants
+               %
+    3.3e-12    % tauB, time constant Bell Bar             :=: tauB
+    0.2e-8        % tauC from naca tm 73254                  :=: tauC
+    1.0        % K_l  from naca tm 73254                  :=: K_1
+               %
+               %  Integration Variables for...
+               %  ...numerical rotor calculation
+ 18            % number of azimuth devisions               :=: nPsi
+ 15            % number of stations along blade            :=: nStat
+               %
+               %  engin/propeller
+               %
+      2.0      %(+) angle of propeller axis [deg]
+      6.0      %(+) prop diameter  [ft]
+   2700.0      %(+) engine speed   [rpm]
+    265.0      %(+) engine power   [hp]
+      0.0      % engine power is constant up to this height:=: hgtConstPwr
+     -0.0833   % prop height  above waterline (z) [ft ]    :=: hmpr
+      6.0      % prop fuselage  station       (x) [ft ]    :=: lmpr
+      0.0      % propposition rt of butline   (y) [ft ]    :=: ympr
+               %
+               % Tip Jet Parameters
+               %
+  0.0087       % jet drag coefficient                         :=: dDrgJet
+  -1.0         % outer jet position, if < 0 -> at rotor tip   :=: rOutr
+   0.625       % jet diameter or inner jet position, if > 0 -> diameter of circular jet, not position :=: rInnr
+  -1.0         % jet centr position (non circular jets only)  :=: rCntr
+  -1.0         % jet height,  (non circular jets only)        :=: hJet

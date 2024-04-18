@@ -1,0 +1,304 @@
+RotaryWingSim 1.3
+z =
+
+  -0.6656 + 0.9895i
+  -0.6656 - 0.9895i
+  -0.0165 + 0.3189i
+  -0.0165 - 0.3189i
+
+
+naca 73254
+
+z =
+
+  -0.7619 + 0.4524i
+  -0.7619 - 0.4524i
+   0.0503 + 0.3348i
+   0.0503 - 0.3348i
+
+
+   
+   
+      RotaryWingSim  
+       u                w              q
+x   -0.041626       0.058180        0.355775
+z   -0.014222      -1.035090       -0.237768
+m    0.002020       0.006622       -0.529456
+
+      Measured  Data
+       u                w              q
+x   -0.011220       0.042950        3.221000
+z   -0.125200      -0.561700        2.865000
+m   -0.002337       0.006749       -1.067000
+
+E =   0.00200    15580.14
+z1  -1.29430    0.00000j
+z2  -0.38355    0.00000j
+z3   0.03584    0.19538j
+z4   0.03584   -0.19538j
+
+Routh D       -0.031
+
+E =  -0.00216   -16834.88
+z1  -1.34332    0.00000j
+z2  -0.23485    0.18940j
+z3  -0.23485   -0.18940j
+z4   0.17310    0.00000j
+
+Routh D        0.055
+
+
+
+      RotaryWingSim  
+       u                w              q
+x   -0.041626       0.058180        0.355775
+z   -0.014222      -1.035090       -0.237768
+m    0.002020       0.006622       -0.529456
+
+      Measured  Data
+       u                w              q
+x   -0.024400       0.066500        0.498100
+z    0.012300      -0.875700       -0.492900
+m    0.010600      -0.008800       -0.523000
+
+E =   0.00200    15580.14
+z1  -1.29430    0.00000j
+z2  -0.38355    0.00000j
+z3   0.03584    0.19538j
+z4   0.03584   -0.19538j
+
+Routh D       -0.031
+
+E =   0.00917    71580.17
+z1  -0.76187    0.45242j
+z2  -0.76187   -0.45242j
+z3   0.05032    0.33481j
+z4   0.05032   -0.33481j
+
+Routh D       -0.090
+
+
+
+
+
+==x=x=== end frc func ===x=x==
+
+      RotaryWingSim  
+       u                w              q
+x   -0.043114       0.040450        0.401691
+z    0.041981      -1.376777       -0.211186
+m    0.003968      -0.057386       -0.579372
+
+      Measured  Data
+       u                w              q
+x   -0.024400       0.066500        0.492900
+z    0.012300      -0.875700       -0.492900
+m    0.010600      -0.008800       -0.523000
+
+E =   0.00305    24061.02
+z1  -0.97619    1.23952j
+z2  -0.97619   -1.23952j
+z3  -0.02344    0.10717j
+z4  -0.02344   -0.10717j
+
+Routh D        0.587
+
+E =   0.00917    72279.30
+z1  -0.76184    0.45242j
+z2  -0.76184   -0.45242j
+z3   0.05029    0.33482j
+z4   0.05029   -0.33482j
+
+Routh D       -0.090
+
+==a=a=== frc func ===a=a==
+xMR   11.125    xcg   11.125    dxCG    0.000    iRigMR   -5.0
+mu  0.124    cTs 0.04752   cT 0.00219   cLs 6.12129   cL 0.28262
+Qrot[Nm]     7382.6   P[kW]  242.75   P[hp]  326.72          dQ -3.6e-003
+aN     0.07371°    a1    0.02424°   b1    0.02252°
+Br   aN     4.22°       a1    1.39°      b1    1.29°
+716  aN     3.36°       a1    1.30°      b1    0.57°
+mmt  aN     8.42°       a1    1.20°      b1    1.94°
+oM 32.882[1/s]   oMR  241.8[m/s]   oMR  793.4[ft/s]    n 314.0   nmmt 201.8 [1/min]
+lamD  -0.01463     lamI   0.00717     lamNf   -0.01744     lammt    0.02138
+A1S   -0.00824°    B1S    0.00244°
+A1S   -0.47°       B1S    0.14°
+alfaNf -4.74°  alfaD   -3.44°   alfaS -4.60°   alSm     1.16°   alNfmmt    17.44° 
+thtaN  12.42°  thta1 -10.88°  thtaClmb  -0.00°     thtaTR    -0.05°
+Trim   phi    -0.05°    thta     0.40°    psi    -0.10°
+
+
+
+R4B   f_14
+autogyro oM
+       u                w              q
+x   -0.052353      -0.074314        0.906579
+z   -0.113190      -0.989786        0.189069
+m    0.007852       0.015102       -0.634829
+
+autogyro thtaN
+       u                w              q
+x   -0.067591      -0.079758        1.042897
+z   -0.088913      -0.862208        0.179971
+m    0.020436       0.023488       -0.729600
+
+helicopter
+       u                w              q
+x   -0.068309      -0.080297        1.041084
+z   -0.089671      -0.861917        0.180133
+m    0.020845       0.024010       -0.728267
+
+      Measured  Data
+       u                w              q
+x   -0.090000       0.110000        0.092100
+z    0.010000      -1.100000        0.140000
+m    0.007000       0.005000       -0.025000
+
+
+Ray said: Any turn in a gyro is going to produce a loss in altitude. 
+As someone entirely devoid of flight experience I would like to introduce 
+an aspect in the scenario that is puzzeling me: wind shear. If we assume
+that at 300 ft agl a wind of 30 mph is blowing then the wind speed from
+that hight down to zero feet changes roughly the way depicted in the 
+attached plot (the 1/7th power law describing this seems to be an accepted
+approximation for that problem). Now what happens if the pilot is flying 
+into the wind at 100 ft agl at 30 mph and then quickly turns downwing while 
+at the same time descending to 50 ft? To have a point of reference let us 
+assume the downwind turn starts just at the moment where the aircraft has
+a balloon, drifting with the wind at 100ft, at 50 feet out to starbord and 
+the turn ends on the other side of the balloon which is still 50 feet out
+to starbord but now also is 50 ft above the aircraft. Obviously the aircraft starts circling the balloon at a
+flight speed of 40 mph and due to its inertia the turn ends with perhaps 
+tad less than 40 mph relative to the balloon but not much since loss in height is 
+traded for airspeed. From the diagram we read that wind speed at 50 ft is 
+23 mph 
+
+
+      RotaryWingSim  
+       u                w              q
+x   -0.049489       0.102860        0.365274
+z    0.139019      -1.566784       -0.509586
+m    0.018157      -0.087046       -0.732884
+
+      Measured  Data
+       u                w              q
+x   -0.024400       0.066500        0.492900
+z    0.012300      -0.875700       -0.492900
+m    0.010600      -0.008800       -0.523000
+
+x   -0.0314          0.0107         0.5506
+z   -0.0371         -0.7150        -0.2152
+m    0.0345         -0.0130        -2.4843
+
+
+
+
+
+RotaryWingSim  
+       u                w              q
+x   -0.049489       0.102860        0.365274
+z    0.139019      -1.566784       -0.509586
+m    0.018157      -0.087046       -0.732884
+
+Measured  Data
+       u                w              q
+x   -0.024400       0.066500        0.492900
+z    0.012300      -0.875700       -0.492900
+m    0.010600      -0.008800       -0.523000
+
+E =   0.01635   128792.74
+z1  -1.14860    1.52737j
+z2  -1.14860   -1.52737j
+z3  -0.02598    0.20793j
+z4  -0.02598   -0.20793j
+
+Routh D        1.636
+
+E =   0.00917    72279.30
+z1  -0.76184    0.45242j
+z2  -0.76184   -0.45242j
+z3   0.05029    0.33482j
+z4   0.05029   -0.33482j
+
+Routh D       -0.090
+
+
+flt_6N
+mu  0.124    cTs 0.04752   cT 0.00219   cLs 6.12129   cL 0.28262
+Qrot[Nm]     7382.6   P[kW]  242.75   P[hp]  326.72          dQ -3.6e-003
+aN     0.07371°    a1    0.02424°   b1    0.02252°
+Br   aN     4.22°       a1    1.39°      b1    1.29°
+716  aN     3.36°       a1    1.30°      b1    0.57°
+mmt  aN     8.42°       a1    1.20°      b1    1.94°
+oM 32.882[1/s]   oMR  241.8[m/s]   oMR  793.4[ft/s]    n 314.0   nmmt 201.8 [1/min]
+lamD  -0.01463     lamI   0.00717     lamNf   -0.01744     lammt    0.02138
+A1S   -0.00824°    B1S    0.00244°
+A1S   -0.47°       B1S    0.14°
+alfaNf -4.74°  alfaD   -3.44°   alfaS -4.60°   alSm     1.16°   alNfmmt    17.44° 
+thtaN  12.42°  thta1 -10.88°  thtaClmb  -0.00°     thtaTR    -0.05°
+Trim   phi    -0.05°    thta     0.40°    psi    -0.10°
+
+
+
+      RotaryWingSim  
+       u                w              q
+x   -0.043114       0.040450        0.401691
+z    0.041981      -1.376777       -0.211186
+m    0.003968      -0.057386       -0.579372
+
+      Measured  Data
+       u                w              q
+x   -0.024400       0.066500        0.498100
+z    0.012300      -0.875700       -0.492900
+m    0.010600      -0.008800       -0.523000
+
+E =   0.00305    24061.02
+z1  -0.97619    1.23952j
+z2  -0.97619   -1.23952j
+z3  -0.02344    0.10717j
+z4  -0.02344   -0.10717j
+
+Routh D        0.587
+
+E =   0.00917    72279.30
+z1  -0.76187    0.45242j
+z2  -0.76187   -0.45242j
+z3   0.05032    0.33481j
+z4   0.05032   -0.33481j
+
+
+naca-tn-4305_Wind Tunnel Investigation of Effects of Spoiler Location Spoiler Size and Fuselage Nose Shape on Directional Characteristics of a Model of a Tandem Helicopter Fuselage
+naca-tn-4305_Wind Tunnel Investigation of Effects of Spoiler Fuselage Nose Shape on Directional Characteristics of a Tandem Helicopter Fuselage
+
+      RotaryWingSim  
+       u                w              q
+x   -0.062266       0.045106        1.019111
+z   -0.132192      -1.907089       -0.123282
+m    0.003219      -0.019238       -0.966370
+
+      Measured  Data
+       u                w              q
+x   -0.090000       0.110000        0.092100
+z    0.010000      -1.100000        0.140000
+m    0.007000       0.005000       -0.025000
+
+E =   0.00868    14693.09
+z1  -1.43793    0.67623j
+z2  -1.43793   -0.67623j
+z3  -0.02994    0.18120j
+z4  -0.02994   -0.18120j
+
+Routh D        1.194
+
+E =   0.00775    13116.14
+z1  -1.22923    0.00000j
+z2   0.19390    0.35772j
+z3   0.19390   -0.35772j
+z4  -0.37358    0.00000j
+
+Routh D       -0.120
+
+
+
+
+

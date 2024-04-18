@@ -1,0 +1,208 @@
+fpA=12.7  vfv1=1.0 Vz = 1000 ft/s areaHS=0!!!
+       u                w              q
+x   -0.042263      -0.064075        0.660676
+z   -0.152426      -0.846548        0.149604
+m    0.007109       0.000890       -0.227983
+
+E =   0.00588    36055.18
+z1  -0.92065    0.00000j
+z2  -0.42033    0.00000j
+z3   0.11209    0.36954j
+z4   0.11209   -0.36954j
+
+Routh D       -0.055
+
+fpA=12.7     vfv1=0.0  Vz = 1000 ft/s
+       u                w              q
+x   -0.039884      -0.062585        0.637675
+z   -0.025589      -1.496152        0.072197
+m    0.005920      -0.000039       -0.213415
+
+z1  -1.50188    0.00000j
+z2  -0.44579    0.00000j
+z3   0.09911    0.34636j
+z4   0.09911   -0.34636j
+
+Routh D       -0.194
+
+fpA = 48   vfv1=0.0  Vz = 1000 ft/s
+       u                w              q
+x   -0.110579      -0.081004        0.603661
+z   -0.040691      -1.220574        0.115991
+m    0.012189      -0.000646       -0.202627
+
+z1  -1.23012    0.00000j
+z2  -0.53342    0.00000j
+z3   0.11488    0.45785j
+z4   0.11488   -0.45785j
+
+Routh D       -0.227
+
+coeffFus 6763 Vz = 1000 ft/s
+       u                w              q
+x   -0.041600      -0.058681        0.728548
+z   -0.078326      -0.815370        0.177913
+m    0.009226       0.003886       -0.243217
+
+z1  -0.99838    0.00000j
+z2   0.14441    0.40089j
+z3   0.14441   -0.40089j
+z4  -0.39063    0.00000j
+
+Routh D       -0.079
+
+Vz=500ft/s
+       u                w              q
+x   -0.053916      -0.057187        0.637202
+z   -0.072288      -0.811905        0.174947
+m    0.013387       0.003817       -0.212268
+
+z1  -1.00694    0.00000j
+z2   0.18464    0.44747j
+z3   0.18464   -0.44747j
+z4  -0.44043    0.00000j
+
+Routh D       -0.124
+
+
+Vz=0ft/s
+       u                w              q
+x   -0.064246      -0.059868        0.546396
+z   -0.067915      -0.813055        0.169968
+m    0.016869       0.004854       -0.181604
+
+z1  -1.05362    0.00000j
+z2   0.22846    0.46631j
+z3   0.22846   -0.46631j
+z4  -0.46220    0.00000j
+
+Routh D       -0.169
+
+nb=2
+       u                w              q
+x   -0.089511      -0.075858        0.627986
+z   -0.048939      -0.586476        0.166700
+m    0.025830       0.014979       -0.209352
+
+z1  -1.19396    0.00000j
+z2   0.32419    0.49347j
+z3   0.32419   -0.49347j
+z4  -0.33975    0.00000j
+
+Routh D       -0.242
+
+cmNfus=1.5
+       u                w              q
+x   -0.089682      -0.076528        0.628333
+z   -0.049559      -0.586370        0.167502
+m    0.025398       0.022152       -0.209022
+
+z1  -1.30624    0.00000j
+z2   0.36461    0.45098j
+z3   0.36461   -0.45098j
+z4  -0.30804    0.00000j
+
+Routh D       -0.265
+
+
+nRot = 300 [rpm] from 192 .... distorted heli plots
+       u                w              q
+x   -0.038881      -0.051757        0.313837
+z   -0.101327      -0.813328        0.212793
+m    0.007255       0.009818       -0.101357
+
+z1  -1.12087    0.00000j
+z2   0.22446    0.31952j
+z3   0.22446   -0.31952j
+z4  -0.28162    0.00000j
+
+Routh D       -0.060
+
+
+zHub=5ft
+       u                w              q
+x   -0.042853      -0.070627        0.303923
+z   -0.119411      -0.810831        0.178458
+m    0.005215       0.009921       -0.071796
+
+z1  -1.11380    0.00000j
+z2   0.20874    0.27095j
+z3   0.20874   -0.27095j
+z4  -0.22916    0.00000j
+
+Routh D       -0.037
+
+Vertical Fin Data Copied, areaHS=0, lti->error
+       u                w              q
+x   -0.042852      -0.070693        0.303963
+z   -0.119547      -0.810876        0.178488
+m    0.005203       0.009936       -0.071805
+
+z1  -1.11416    0.00000j
+z2   0.20864    0.27050j
+z3   0.20864   -0.27050j
+z4  -0.22866    0.00000j
+
+Routh D       -0.037
+
+areaHS=1, lti->ok!
+       u                w              q
+x   -0.041894      -0.065630        0.303275
+z   -0.114553      -0.816642        0.141898
+m    0.005243       0.004577       -0.096980
+
+z1  -0.99397    0.00000j
+z2   0.17015    0.30642j
+z3   0.17015   -0.30642j
+z4  -0.30184    0.00000j
+
+Routh D       -0.038
+
+
+======================================
+
+       u                w              q
+x   -0.073785       0.090703        0.296300
+z    0.075693      -1.011912       -0.766568
+m    0.014125      -0.095087       -0.682783
+
+
+E =   0.00710    41009.28
+z1  -0.84175    2.03400j
+z2  -0.84175   -2.03400j
+z3  -0.04249    0.11207j
+z4  -0.04249   -0.11207j
+
+Routh D        3.449
+
+
+Hallo Moni,
+
+Standard und Latein tanze ich seit über zehn Jahren, allerdings immer in der Hobbyabteilung.
+Da ich beruflich ebenfalls recht eingespannt bin suche ich eine Tanzpartnerin die gelegentlich 
+auch etwas Neues probieren möchte. Ich experimentiere gerne, aber eher entspannt als verbissen.
+Wenn Du Lust auf einen netten Tanzabend hast dann melde Dich doch bitte und wir stimmen einen
+Termin ab. Ich würde gerne mal ausprobieren, was ich mit einer Klassepartnerin auf's Parkett 
+legen kann.
+
+Alles Gute für 2014!
+
+Herzliche Grüße,
+
+Jürgen
+
+
+Hallo Lenki,
+
+ich suche eine Tanzpartnerin die gerne ab und zu mal bei einer Tanzparty herausfinden möchte,
+was wir ganz locker und spontan zu zweit auf's Parkett legen können. Leider habe ich nur selten 
+Zeit und so ist eine Absprache (e-mail, pn hier im Forum) vielleicht der beste Weg. 
+
+Schau Dir doch mein Profil an und schreibe mir, wenn Du Lust auf einen netten Tanzabend hast.
+
+Herzliche Grüße,
+
+Jürgen
+
+
+http://www.britishpathe.com/video/flying-down-to-rio-no-2

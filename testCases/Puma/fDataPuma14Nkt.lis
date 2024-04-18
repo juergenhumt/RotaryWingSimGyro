@@ -1,0 +1,45 @@
+reading aircraft data from ./testCases/Puma/RotDatPuma1b.dat
+reading Flight Data from ./testCases/Puma/fDataPuma14Nkt.flt
+reading Rotor Data from ./testCases/Puma/fDataPuma14Nkt.flt
+
+
+    #### RotaryWingSim ####
+rhoAir        1.1553 kg/m³
+thtaN   17.68°   twist    -8.00°
+mHeli          12798.00 lb
+
+nRot      258.0 1/min    oM     27.02 rad/s
+oMR       202.75 m/s     oMR   665.21 ft/s
+aBlade         16.21 m^2
+
+rRotTR       1.30 m
+nRotTR       1662.7 1/min
+oMTR    174.12
+oMRTR   202.75 m/s    oMRTR   665.21 ft/s
+sigmaTR   0.2621
+
+Area Mrot     176.93 m^2
+m blade        90.7 kg
+I blade      3892.9 kg*m^2
+gamRot         12.2700
+sigma           0.0916
+
+
+Trim phi       0.00°    thta      -0.10°    psi      -0.10°   
+vH     157.45 mph     vV          0 fpm
+cTs  0.073957     cT  0.0068     cT2sa  0.0257     cL  0.1122
+m Heli    56948.7 N      fpA        1.7 m^2          18.3 ft^2
+Iyy Heli       45086.7 kg*m^2
+Coordintats x,z    [m]         [ft]
+Rotor      :   0.10   2.07        0.33   6.79
+Rudder     :   8.66   2.10       28.41   6.89
+Fin        :   9.56   2.84       31.35   9.33
+H-Stab     :   8.91   0.50       29.23   1.64
+Wing       :  -4.59   0.00      -15.07   0.00
+Propeller  :  -4.55  -0.05      -14.94  -0.15
+### Var ###
+mu             27.018  vFlight    140.0 kn
+thtaClmb      -0.0000     -0.0000°
+cTsReq    0.07396    cTReq    0.00678    cT2saReq    0.02574
+alfaD     246.37°    thtaClmb      -0.00°    thtaTrim      -0.10
+trim iter 19     anorm        NaN

@@ -1,0 +1,121 @@
+Physical Constants for Bensen B-8M Autogyro
+Gross weight                            W = 460 lb
+Center of graity in relation to         x = -0.0106 ft
+rotor reference axis                    z = -3.1850 ft
+
+Equivalent flat plate drag area,        f = 8 ft^2
+fuselage (estimated)
+Engine - 4 cyl . McCullough 4318-A      72 HP @ 4100 RPM (rated)
+Thrust axis parallel to fuselage        xp= -2.33 ft
+reference axis (alfP = alfF)            zp= +0.00416 ft
+
+Propeller - 45-24 Banks-Maxwell two-bladed pusher
+Horizontal tail
+        Area                            St = 2.6 ft^2
+        Aspect ratio                    A  = 1.54
+        Lift curve slope                at = 2.0
+        Sweep of quarter chord          L  = 43°
+        Tail arm                        xt = -1.82 ft
+        Tail incidence                  it = 0°
+                    
+Rotor (teeter hinge)
+        Number of blades                b = 2
+        Radius of blade                 R = 10 ft
+        Blade chord (constant)          c = 0.562 ft
+        Rotor solidity                  s = 0.0358
+        Built-in coning angle           aN= 0.07 rad
+        Built-in pitch angle            thtaN=0.0262 rad
+        Blade twist                     tw = 0
+        Blade airfol section
+            Lift curve slope            a = 5.5
+            Drag coefficient as         Cdx = dDrgN + dDrg1*alfa + dDrg2*alfa^2
+            a power series              dDrgN =  0.0165
+                                        dDrg1 = -0.0509
+                                        dDrg2 =  0.3170
+            Mean drag coefficient       dDrgM =  0.0168
+            
+        Mass moment of inertia about the 
+        flapping hinge (per blade)          I1= 20.77 slug ft^2
+        Mass moment about flapping hinge    Mg= 2.87 slug ft^2
+        (per blade)
+        Weight moment about flapping hing   Mw= 92.5 lb-ft
+        (per blade)
+        Locks blade constant                gam= 3.54
+        y=rhoAir*a*c*R^4/I1
+
+Incidence of plane perpendikular to rotor   iR = 8.7°
+reference axis to fuselage reference line
+
+
+
+
+V ft per sec         60          70          80        90       100
+      mph            41         47.74       54.56    61.38      68.2
+      mu
+control angle
+dalf Predicted    -0.000677  -0.000644  -0.000640 -0.000648 -0.000645
+dV   Flight test  -0.000766  -0.000684  -0.000617 -0.000434 -0.000435
+attitude angle
+dalf Predicted    -0.00781   -0.00501   -0.00344  -0.00248  -0.00790
+dV   Flight test  -0.00833   -0.00567   -0.00350  -0.00234  -0.00142
+angle of attack
+dalf Predicted    -0.00849   -0.00565   -0.00408  -0.00312  -0.00244
+dV   Flight test  -0.0085    -0.00645   -0.00425  -0.00267  -0.00133 
+
+alfaNf  [rad]       0.035       0.0275      0.022     0.019    0.017  
+  [grad]            20.1         15.8        12.6      10.88    9.74
+
+
+      RotaryWingSim    
+thtaN = 3.5
+       u                w              q
+x   -0.297725      -0.247338        1.503223
+z   -0.334889      -1.160433       -0.445740
+m    0.001417      -0.007866       -0.128652
+
+xMR    1.200    xcg    0.000    dxCG    1.200    iRigMR   17.0
+cTs 0.07764   cT 0.00278   cLs 5.97587   cL 0.21380   Qrot       0.0
+aN     0.03873°    a1    0.03954°   b1    0.02072°
+Br   aN     2.22°       a1    2.27°      b1    1.19°
+716  aN     1.99°       a1    1.93°      b1    0.42°
+mmt  aN     6.97°       a1    1.40°      b1    2.90°
+mu  0.158      oM 49.982[1/s]  n 477.3[1/min]   oMR  152.3[m/s]   oMR  499.8[ft/s]
+lamD   0.02398     lamI   0.00876     lamNf    0.01868     mu*a1    0.00530
+A1S   -0.00307°    B1S    0.01461°
+A1S   -0.18°       B1S    0.84°
+alfaNf  9.91°  alfaD 11.84°   alfaS 10.75°   alSm     1.09°
+thtaN      3.50°       thtaClmb    -0.00      thtaTR    -0.02°
+Trim   phi     0.03°    thta    -6.25°    psi     0.00°
+dDrgN   0.0165  dDrg1  -0.0509  dDrg2   0.3170
+vBx    24.24    vBy    -0.00    vBz    -2.66    V    80.00 [fps]
+vEx    54.70    vEy     0.00    vEz    -0.00    V    54.70 [mph]
+MR    Fx   -74.44   Fz -2310.63   Fx/Fz   18.8°    Fx/Fz2    1.8°    dxMR    0.0344
+
+
+
+thtaN = 2.5
+       u                w              q
+x   -0.303099      -0.282639        1.451368
+z   -0.364932      -1.180156       -0.433055
+m    0.000837      -0.007038       -0.124195
+
+xMR    1.200    xcg    0.000    dxCG    1.200    iRigMR   17.0
+cTs 0.06835   cT 0.00245   cLs 5.88504   cL 0.21056   Qrot       0.0
+aN     0.03350°    a1    0.02968°   b1    0.01841°
+Br   aN     1.92°       a1    1.70°      b1    1.05°
+716  aN     1.73°       a1    1.47°      b1    0.35°
+mmt  aN     6.99°       a1    1.30°      b1    2.83°
+mu  0.147      oM 53.053[1/s]  n 506.6[1/min]   oMR  161.7[m/s]   oMR  530.5[ft/s]
+lamD   0.02711     lamI   0.00820     lamNf    0.02334     mu*a1    0.00377
+A1S   -0.00246°    B1S   -0.00094°
+A1S   -0.14°       B1S   -0.05°
+alfaNf 12.11°  alfaD 13.58°   alfaS 12.06°   alSm     1.52°
+thtaN      2.50°       thtaClmb    -0.00      thtaTR    -0.02°
+Trim   phi     0.03°    thta    -4.94°    psi     0.00°
+dDrgN   0.0165  dDrg1  -0.0509  dDrg2   0.3170
+vBx    24.29    vBy    -0.00    vBz    -2.10    V    80.00 [fps]
+vEx    54.70    vEy     0.00    vEz    -0.00    V    54.70 [mph]
+MR    Fx   -82.14   Fz -2290.64   Fx/Fz   19.1°    Fx/Fz2    2.1°    dxMR    0.0305
+
+http://www.adm.cat/Imatges_Canudas/Imatges_Canudas.htm
+http://www.youtube.com/watch?v=5hLPVEbP-1U

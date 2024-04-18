@@ -1,0 +1,175 @@
+>> reading aircraft data from ./data/KelletKD1tws.dat
+# fuselage coefficients   ./data/PrtyCoeff.cff   #
+# rotor angle coefficients   ./data/PCA-2_angles.cff   #
+# Data   ./data/fDataKD1tws1.flt   #
+Start reading Flight Data section
+End reading Flight Data section
+# Data   ./data/fDataKD1tws1.flt   #
+Start reading Rotor Data section
+End reading Rotor Data section
+cTs   0.08521619     cT  0.0041     cT2sa  0.0322     cL  0.3133
+rRot     6.10     sigma  0.0477
+##     Reading # Data   ./data/cntrlrS51.cnt   #
+Start reading control data
+End read controler data
+autogyro mode: iterating thtaN
+
+==a=a=== frc func ===a=a==
+xMR    7.250    xcg    5.250    dxCG    2.000    iRigMR    0.0
+cTs 0.08993   cT 0.00429   cLs 6.84030   cL 0.32660   Qrot       0.0
+aN     0.10699°    a1    0.05077°   b1    0.03870°
+Br   aN     6.13°       a1    2.91°      b1    2.22°
+716  aN     5.40°       a1    2.61°      b1    1.17°
+mmt  aN     6.96°       a1    1.41°      b1    2.91°
+mu  0.159      oM 20.735[1/s]  n 198.0[1/min]   oMR  126.4[m/s]   oMR  414.7[ft/s]
+lamD   0.02269     lamI   0.01127     lamNf    0.01546     mu*a1    0.00723
+A1S    0.01417°    B1S   -0.04518°
+A1S    0.81°       B1S   -2.59°
+alfaNf  8.29°  alfaD   10.90°   alfaS  5.70°   alSm     5.20°
+thtaN   4.81°  thtaClmb  -0.00°     thtaTR     0.09°
+Trim   phi    -0.87°    thta     5.70°    psi     0.00°
+dDrgN   0.0140  dDrg1  -0.0196  dDrg2   0.3329
+vBx    20.19    vBy    -0.03    vBz     2.02    V    66.57 [fps]
+vEx    45.51    vEy     0.00    vEz    -0.00    V    45.51 [mph]
+MR    Fx -1024.79   Fz -9279.73   Fx/Fz    6.3°    Fx/Fz2    6.3°    dxMR    0.4413
+
+fMR(1)         -1024.79   fMR(2)           191.78   fMR(3)         -9279.73
+fTR(1)             0.00   fTR(2)             0.00   fTR(3)             0.00
+fPR(1)          2349.21   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)         -364.70   fFus(2)           -0.63   fFus(3)          -11.17
+fFN(1)            -4.16   fFN(2)           -50.15   fFN(3)             0.00
+fHS(1)           -26.99   fHS(2)             0.00   fHS(3)            -6.19
+fCG(1)          -928.36   fCG(2)          -140.99   fCG(3)          9297.32
+fWN(1)            -0.21   fWN(2)             0.00   fWN(3)            -0.23
+fR(1)   9.2392483e-012   fR(2)  -2.8421709e-013   fR(3)   2.4785726e-010
+
+Moment Equilibrium
+mMR(1)            12.74   mMR(2)             6.92   mMR(3)          -116.91
+mTR(1)            -0.00   mTR(2)             0.00   mTR(3)            -0.00
+mPR(1)             0.00   mPR(2)            -0.00   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)           20.65   mFus(3)           12.20
+mFN(1)           -12.74   mFN(2)             1.06   mFN(3)           104.71
+mHS(1)             0.00   mHS(2)           -28.97   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)             0.34   mWN(3)             0.00
+mR(1)  -9.2560626e-011   mR(2)   2.7260949e-010   mR(3)   5.3887561e-011
+==x=x=== end frc func ===x=x==
+
+      RotaryWingSim  
+       u                w              q
+x   -0.099107      -0.150460        1.452004
+z   -0.167915      -1.095335       -0.043118
+m    0.001386      -0.014782       -0.223912
+
+      Measured  Data
+
+       u                w              q
+x   -0.090000       0.110000        0.092100
+z    0.010000      -1.100000        0.140000
+m    0.007000       0.005000       -0.025000
+
+E =   0.00400     3629.81
+
+f2 =
+
+   1.0000             1.3966             0.7185 - 0.0000i   0.1370 - 0.0000i   0.0392 + 0.0000i
+
+z1  -0.73060    0.34132j
+z2  -0.73060   -0.34132j
+z3   0.02142    0.24473j
+z4   0.02142   -0.24473j
+
+Routh D       -0.027
+
+E =   0.00775     7032.12
+z1  -1.18036    0.00000j
+z2  -0.42644    0.00000j
+z3   0.19590    0.33565j
+z4   0.19590   -0.33565j
+
+Routh D       -0.113
+
+RotaryWingSim End
+>> reading aircraft data from ./data/KelletKD1tws2.dat
+# fuselage coefficients   ./data/R4BCoeff.cff   #
+##     Reading # Data   ./data/fDataKD1tws1.flt   #
+Start reading flight data
+End read flight data
+
+nRot      198.0 1/min    oM     20.73 rad/s
+oMR       126.40 m/s     oMR   414.69 ft/s
+cTs   0.08558208     cT  0.0041     cT2sa  0.0323     cL  0.3162
+Optimization terminated successfully:
+ Relative function value changing by less than OPTIONS.TolFun
+mu    0.15740  oMR   124.1    oMRft   407.1    nRt   194.4    alfaD    15.2°
+##     Reading # Data   ./data/cntrlrS51.cnt   #
+Start reading control data
+End read controler data
+#3 phiHS   0.32   xh  18.50   ZHS    -829.26
+#3 phiHS   0.18   xh  10.60   ZHS    -340.83
+
+ vG  20.24   alfNf  13.43    oM    20.62     vi  1.16048     cT  0.00392  dDrgN  0.01389
+
+==a=a=== frc func ===a=a==
+xMR    7.250    xcg    5.250    dxCG    2.000    iRigMR    0.0
+cTs 0.00394   cT 0.00392   cLs 6.08920   cL 0.29074
+aN     0.09533°    a1    0.04055°   b1    0.03315°
+Br   aN     5.46°       a1    2.32°      b1    1.90°
+591  aN     3.50°       a1    0.56°      b1    0.77°
+mu  0.158      lamD    0.02991    lamI    0.00923     mu*a1    0.00154     lamNf    0.02837
+A1S    0.00562°    B1S   -0.10597°
+A1S     0.32°     B1S    -6.07°
+alfaNf 13.43°  alfaD 13.99°   alfaS  7.35°   a1Sm     6.63°
+thtaN      3.20°    thtaTR     6.81°
+Trim   phi    -0.03°    thta     7.38°    psi     0.00°
+vBx    20.07    vBy    -0.00    vBz     2.60
+vEx    45.40    vEy     0.00    vEz    -0.00    V    45.40
+fMR(1)         -1013.79   fMR(2)            -0.00   fMR(3)         -8860.40
+fTR(1)             0.00   fTR(2)             0.00   fTR(3)             0.00
+fPR(1)          2632.45   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)         -330.29   fFus(2)           -0.03   fFus(3)          -65.90
+fFN(1)           -57.38   fFN(2)             5.66   fFN(3)             0.00
+fHS(1)           -31.16   fHS(2)             0.00   fHS(3)          -340.83
+fCG(1)         -1199.72   fCG(2)            -5.63   fCG(3)          9267.28
+fWN(1)            -0.12   fWN(2)             0.00   fWN(3)            -0.15
+fR(1)   7.3608619e-012   fR(2)   5.3326232e-012   fR(3)  -1.5576984e-011
+
+Moment Equilibrium
+mMR(1)            -0.00   mMR(2)          1321.94   mMR(3)             0.00
+mTR(1)             0.00   mTR(2)             0.00   mTR(3)             0.00
+mPR(1)             0.00   mPR(2)            -0.00   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)           64.69   mFus(3)           11.82
+mFN(1)             0.00   mFN(2)            14.57   mFN(3)           -11.82
+mHS(1)             0.00   mHS(2)         -1401.41   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)             0.21   mWN(3)             0.00
+mR(1)  -2.2956783e-012   mR(2)  -5.8003657e-011   mR(3)  -1.3320900e-011
+==x=x=== end frc func ===x=x==
+MR      Fx -1013.79    Fz -8860.40   thtaClmb    -0.00
+MR2     Fx -1013.79    Fz -8860.40
+dxMR    0.4364  Fx/Fz    6.5°        mu   0.15751   oM  20.6  n  196.9
+
+
+ans =
+
+    52
+
+
+f2 =
+
+   1.0000             0.8517             2.7694 + 0.0000i  -0.0129             0.0599          
+
+z1  -0.48323    1.60310j
+z2  -0.48323   -1.60310j
+z3   0.01467    0.14230j
+z4   0.01467   -0.14230j
+
+Routh D       -0.218
+
+
+      naca-tm-73254 data
+       u                w              q
+x   -0.024400       0.066500        0.498100
+z    0.012300      -0.875700       -0.492900
+m    0.010600      -0.008800       -0.523000
+RotaryWingSim End
+>> 
+

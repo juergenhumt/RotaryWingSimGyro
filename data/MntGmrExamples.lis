@@ -1,0 +1,561 @@
+MntGmPr_smallB1s: no moments from fuselage or H-stab
+
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    3.050    dxCG    1.450    iRigMR   11.0
+cTs 0.07149   cT 0.00235   cLs 5.60760   cL 0.18458   Qrot       0.0
+aN     0.17583°    a1    0.03684°   b1    0.04734°
+Br   aN    10.07°       a1    2.11°      b1    2.71°
+716  aN     8.99°       a1    1.80°      b1    1.92°
+mmt  aN     6.97°       a1    1.40°      b1    2.90°
+mu  0.158      oM 44.233[1/s]  n 422.4[1/min]   oMR  168.5[m/s]   oMR  552.9[ft/s]
+lamD   0.01660     lamI   0.00743     lamNf    0.01165     mu*a1    0.00495
+A1S   -0.00710°    B1S    0.03040°
+A1S   -0.41°       B1S    1.74°
+alfaNf  6.91°  alfaD  8.71°   alfaS  8.65°   alSm     0.05°
+thtaN      3.50°       thtaClmb    -0.00      thtaTR    -0.05°
+Trim   phi    -0.08°    thta    -2.35°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0226  dDrg2   0.4500
+vBx    26.79    vBy     0.00    vBz    -1.10    V    87.98 [fps]
+vEx    60.15    vEy     0.00    vEz    -0.00    V    60.15 [mph]
+MR    Fx   -56.69   Fz -3743.02   Fx/Fz   11.9°    Fx/Fz2    0.9°    dxMR    0.0000
+
+fMR(1)          -769.85   fMR(2)            -1.10   fMR(3)         -3663.43
+fTR(1)             0.00   fTR(2)            -0.00   fTR(3)             0.00
+fPR(1)          1235.20   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)         -610.06   fFus(2)            0.04   fFus(3)          133.24
+fFN(1)            -0.00   fFN(2)             5.69   fFN(3)             0.00
+fHS(1)            -0.00   fHS(2)             0.00   fHS(3)             0.00
+fCG(1)           144.72   fCG(2)            -4.63   fCG(3)          3530.19
+fWN(1)            -0.00   fWN(2)             0.00   fWN(3)            -0.00
+fR(1)  -2.1852953e-011   fR(2)  -5.2482463e-012   fR(3)   1.4724059e-012
+
+Moment Equilibrium
+mMR(1)            -2.31   mMR(2)            -0.01   mMR(3)             0.49
+mTR(1)            -0.00   mTR(2)             0.00   mTR(3)             0.00
+mPR(1)             0.00   mPR(2)            -0.00   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)            0.00   mFus(3)           18.69
+mFN(1)             2.31   mFN(2)             0.00   mFN(3)           -19.17
+mHS(1)             0.00   mHS(2)             0.01   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)            -0.00   mWN(3)             0.00
+mR(1)  -5.9396932e-012   mR(2)  -2.8873822e-013   mR(3)   9.0487617e-012
+==x=x=== end frc func ===x=x==
+
+MntGmPrZ1
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    1.950    dxCG    2.550    iRigMR   11.0
+cTs 0.06598   cT 0.00217   cLs 5.89562   cL 0.19406   Qrot       0.0
+aN     0.16119°    a1    0.03036°   b1    0.04199°
+Br   aN     9.24°       a1    1.74°      b1    2.41°
+716  aN     8.26°       a1    1.50°      b1    1.65°
+mmt  aN     6.99°       a1    1.30°      b1    2.83°
+mu  0.147      oM 47.271[1/s]  n 451.4[1/min]   oMR  180.1[m/s]   oMR  590.9[ft/s]
+lamD   0.01746     lamI   0.00734     lamNf    0.01361     mu*a1    0.00385
+A1S   -0.00532°    B1S   -0.13519°
+A1S   -0.30°       B1S   -7.75°
+alfaNf  8.11°  alfaD  9.61°   alfaS  0.37°   alSm     9.24°
+thtaN      3.00°       thtaClmb    -0.00      thtaTR    -0.04°
+Trim   phi    -0.07°    thta   -10.63°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0226  dDrg2   0.4500
+vBx    26.36    vBy     0.01    vBz    -4.95    V    87.98 [fps]
+vEx    60.15    vEy     0.00    vEz    -0.00    V    60.15 [mph]
+MR    Fx  -678.76   Fz -3886.42   Fx/Fz   20.9°    Fx/Fz2    9.9°    dxMR   -0.0261
+
+fMR(1)         -1407.86   fMR(2)            -0.98   fMR(3)         -3685.50
+fTR(1)             0.00   fTR(2)            -0.00   fTR(3)             0.00
+fPR(1)          1623.73   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)         -861.12   fFus(2)            0.15   fFus(3)          193.36
+fFN(1)            -6.46   fFN(2)             5.08   fFN(3)             0.00
+fHS(1)            -0.23   fHS(2)             0.00   fHS(3)            19.53
+fCG(1)           651.94   fCG(2)            -4.24   fCG(3)          3472.48
+fWN(1)            -0.01   fWN(2)             0.00   fWN(3)             0.13
+fR(1)  -2.7604257e-011   fR(2)  -4.0332182e-012   fR(3)   7.6096351e-012
+
+Moment Equilibrium
+mMR(1)            -2.06   mMR(2)            96.37   mMR(3)             0.76
+mTR(1)            -0.00   mTR(2)             0.00   mTR(3)             0.00
+mPR(1)             0.00   mPR(2)           -74.24   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)          -65.05   mFus(3)           18.04
+mFN(1)             2.06   mFN(2)             2.63   mFN(3)           -18.80
+mHS(1)             0.00   mHS(2)            40.19   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)             0.10   mWN(3)             0.00
+mR(1)  -3.4625636e-012   mR(2)  -5.0265209e-012   mR(3)   9.4075858e-012
+
+
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    2.950    dxCG    1.550    iRigMR    9.0
+cTs 0.06586   cT 0.00217   cLs 5.63114   cL 0.18535   Qrot       0.0
+aN     0.16086°    a1    0.03116°   b1    0.04238°
+Br   aN     9.22°       a1    1.79°      b1    2.43°
+716  aN     8.24°       a1    1.53°      b1    1.68°
+mmt  aN     6.98°       a1    1.33°      b1    2.86°
+mu  0.151      oM 46.225[1/s]  n 441.4[1/min]   oMR  176.1[m/s]   oMR  577.8[ft/s]
+lamD   0.01749     lamI   0.00716     lamNf    0.01346     mu*a1    0.00403
+A1S   -0.00545°    B1S   -0.02519°
+A1S   -0.31°       B1S   -1.44°
+alfaNf  7.81°  alfaD  9.34°   alfaS  6.36°   alSm     2.97°
+thtaN      3.00°       thtaClmb    -0.00      thtaTR    -0.05°
+Trim   phi    -0.07°    thta    -2.64°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0226  dDrg2   0.4500
+vBx    26.79    vBy     0.00    vBz    -1.23    V    87.98 [fps]
+vEx    60.15    vEy     0.00    vEz    -0.00    V    60.15 [mph]
+MR    Fx  -239.26   Fz -3757.98   Fx/Fz   12.6°    Fx/Fz2    3.6°    dxMR    0.0007
+
+fMR(1)          -824.19   fMR(2)            -1.09   fMR(3)         -3674.28
+fTR(1)             0.00   fTR(2)            -0.00   fTR(3)             0.00
+fPR(1)          1377.37   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)         -709.43   fFus(2)            0.04   fFus(3)          144.87
+fFN(1)            -6.27   fFN(2)             5.65   fFN(3)             0.00
+fHS(1)            -0.00   fHS(2)             0.00   fHS(3)             0.00
+fCG(1)           162.51   fCG(2)            -4.60   fCG(3)          3529.41
+fWN(1)            -0.00   fWN(2)             0.00   fWN(3)            -0.00
+fR(1)  -1.7858378e-011   fR(2)  -3.5385028e-012   fR(3)   9.8158972e-012
+
+Moment Equilibrium
+mMR(1)            -2.30   mMR(2)            -2.51   mMR(3)             0.52
+mTR(1)            -0.00   mTR(2)             0.00   mTR(3)             0.00
+mPR(1)             0.00   mPR(2)            -0.00   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)           -0.04   mFus(3)           18.68
+mFN(1)             2.30   mFN(2)             2.55   mFN(3)           -19.19
+mHS(1)             0.00   mHS(2)             0.00   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)            -0.00   mWN(3)             0.00
+mR(1)  -2.3581137e-012   mR(2)  -2.7802567e-012   mR(3)   8.3559826e-012
+==x=x=== end frc func ===x=x==
+
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    2.950    dxCG    1.550    iRigMR    7.0
+cTs 0.07152   cT 0.00235   cLs 5.66009   cL 0.18631   Qrot       0.0
+aN     0.17591°    a1    0.03665°   b1    0.04725°
+Br   aN    10.08°       a1    2.10°      b1    2.71°
+716  aN     9.00°       a1    1.79°      b1    1.91°
+mmt  aN     6.97°       a1    1.39°      b1    2.90°
+mu  0.157      oM 44.433[1/s]  n 424.3[1/min]   oMR  169.3[m/s]   oMR  555.4[ft/s]
+lamD   0.01659     lamI   0.00747     lamNf    0.01169     mu*a1    0.00490
+A1S   -0.00705°    B1S   -0.05313°
+A1S   -0.40°       B1S   -3.04°
+alfaNf  6.97°  alfaD  8.76°   alfaS  3.93°   alSm     4.83°
+thtaN      3.50°       thtaClmb    -0.00      thtaTR    -0.05°
+Trim   phi    -0.07°    thta    -3.07°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0226  dDrg2   0.4500
+vBx    26.78    vBy     0.00    vBz    -1.44    V    87.98 [fps]
+vEx    60.15    vEy     0.00    vEz    -0.00    V    60.15 [mph]
+MR    Fx  -371.58   Fz -3760.61   Fx/Fz   12.6°    Fx/Fz2    5.6°    dxMR    0.0007
+
+fMR(1)          -827.11   fMR(2)            -1.09   fMR(3)         -3687.29
+fTR(1)             0.00   fTR(2)            -0.00   fTR(3)             0.00
+fPR(1)          1358.81   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)         -714.90   fFus(2)            0.05   fFus(3)          159.23
+fFN(1)            -6.26   fFN(2)             5.64   fFN(3)             0.00
+fHS(1)            -0.00   fHS(2)             0.00   fHS(3)             0.00
+fCG(1)           189.47   fCG(2)            -4.60   fCG(3)          3528.07
+fWN(1)            -0.00   fWN(2)             0.00   fWN(3)            -0.00
+fR(1)  -1.8848176e-011   fR(2)  -3.4718894e-012   fR(3)   9.4164481e-012
+
+Moment Equilibrium
+mMR(1)            -2.29   mMR(2)            -2.50   mMR(3)             0.52
+mTR(1)            -0.00   mTR(2)             0.00   mTR(3)             0.00
+mPR(1)             0.00   mPR(2)            -0.00   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)           -0.04   mFus(3)           18.66
+mFN(1)             2.29   mFN(2)             2.55   mFN(3)           -19.18
+mHS(1)             0.00   mHS(2)             0.00   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)            -0.00   mWN(3)             0.00
+mR(1)  -2.2253310e-012   mR(2)  -3.1910284e-012   mR(3)   8.3097973e-012
+==x=x=== end frc func ===x=x==
+
+
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    2.950    dxCG    1.550    iRigMR    7.0
+cTs 0.06587   cT 0.00217   cLs 5.65376   cL 0.18610   Qrot       0.0
+aN     0.16089°    a1    0.03109°   b1    0.04234°
+Br   aN     9.22°       a1    1.78°      b1    2.43°
+716  aN     8.24°       a1    1.53°      b1    1.68°
+mmt  aN     6.98°       a1    1.33°      b1    2.86°
+mu  0.151      oM 46.315[1/s]  n 442.3[1/min]   oMR  176.5[m/s]   oMR  578.9[ft/s]
+lamD   0.01749     lamI   0.00718     lamNf    0.01347     mu*a1    0.00401
+A1S   -0.00544°    B1S   -0.05573°
+A1S   -0.31°       B1S   -3.19°
+alfaNf  7.83°  alfaD  9.36°   alfaS  4.64°   alSm     4.72°
+thtaN      3.00°       thtaClmb    -0.00      thtaTR    -0.05°
+Trim   phi    -0.07°    thta    -2.36°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0226  dDrg2   0.4500
+vBx    26.79    vBy     0.00    vBz    -1.10    V    87.98 [fps]
+vEx    60.15    vEy     0.00    vEz    -0.00    V    60.15 [mph]
+MR    Fx  -355.11   Fz -3764.23   Fx/Fz   12.4°    Fx/Fz2    5.4°    dxMR    0.0105
+
+fMR(1)          -811.21   fMR(2)            -1.09   fMR(3)         -3692.89
+fTR(1)             0.00   fTR(2)            -0.00   fTR(3)             0.00
+fPR(1)          1380.90   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)         -708.67   fFus(2)            0.04   fFus(3)          142.14
+fFN(1)            -6.27   fFN(2)             5.65   fFN(3)             0.00
+fHS(1)            -0.22   fHS(2)             0.00   fHS(3)            20.59
+fCG(1)           145.47   fCG(2)            -4.59   fCG(3)          3530.15
+fWN(1)            -0.00   fWN(2)             0.00   fWN(3)            -0.00
+fR(1)  -1.8816664e-011   fR(2)  -2.7267077e-012   fR(3)   1.3505609e-011
+
+Moment Equilibrium
+mMR(1)            -2.30   mMR(2)           -38.60   mMR(3)             0.52
+mTR(1)            -0.00   mTR(2)             0.00   mTR(3)             0.00
+mPR(1)             0.00   mPR(2)            -0.00   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)           -0.04   mFus(3)           18.69
+mFN(1)             2.30   mFN(2)             2.55   mFN(3)           -19.20
+mHS(1)             0.00   mHS(2)            36.09   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)            -0.00   mWN(3)             0.00
+mR(1)  -6.7457151e-013   mR(2)  -4.5795415e-014   mR(3)   7.9403151e-012
+==x=x=== end frc func ===x=x==
+
+
+
+
+compare iRigMR 9° and 2°
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    4.000    dxCG    0.500    iRigMR    2.0
+cTs 0.08431   cT 0.00278   cLs 5.23675   cL 0.17237   Qrot       0.0
+aN     0.05346°    a1    0.05242°   b1    0.02374°
+Br   aN     3.06°       a1    3.00°      b1    1.36°
+716  aN     2.73°       a1    2.49°      b1    0.66°
+mmt  aN     6.91°       a1    1.59°      b1    3.02°
+mu  0.178      oM 39.300[1/s]  n 375.3[1/min]   oMR  149.7[m/s]   oMR  491.3[ft/s]
+lamD   0.01613     lamI   0.00777     lamNf    0.00837     mu*a1    0.00776
+A1S   -0.00306°    B1S    0.03799°
+A1S   -0.18°       B1S    2.18°
+alfaNf  5.19°  alfaD  7.68°   alfaS  7.37°   alSm     0.32°
+thtaN      4.54°       thtaClmb    -0.00      thtaTR    -0.05°
+Trim   phi    -0.08°    thta     5.37°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0216  dDrg2   0.4500
+vBx    26.70    vBy    -0.00    vBz     2.51    V    87.98 [fps]
+vEx    60.15    vEy     0.00    vEz    -0.00    V    60.15 [mph]
+MR    Fx   -69.55   Fz -3485.87   Fx/Fz    3.1°    Fx/Fz2    1.1°    dxMR    0.0369
+
+fMR(1)          -191.16   fMR(2)            -1.18   fMR(3)         -3481.32
+fTR(1)             0.00   fTR(2)             0.00   fTR(3)             0.00
+fPR(1)          1241.29   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)         -711.38   fFus(2)           -0.08   fFus(3)         -124.38
+fFN(1)            -5.70   fFN(2)             6.10   fFN(3)             0.00
+fHS(1)            -2.65   fHS(2)             0.00   fHS(3)            88.03
+fCG(1)          -330.40   fCG(2)            -4.84   fCG(3)          3517.67
+fWN(1)            -0.00   fWN(2)             0.00   fWN(3)            -0.00
+fR(1)  -1.2114360e-011   fR(2)   7.1764816e-013   fR(3)   4.0817553e-011
+
+Moment Equilibrium
+mMR(1)            -2.48   mMR(2)          -128.51   mMR(3)             0.18
+mTR(1)             0.00   mTR(2)             0.00   mTR(3)            -0.00
+mPR(1)             0.00   mPR(2)            -0.00   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)            0.04   mFus(3)           18.60
+mFN(1)             2.48   mFN(2)             2.32   mFN(3)           -18.78
+mHS(1)             0.00   mHS(2)           126.16   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)            -0.00   mWN(3)             0.00
+mR(1)   6.6622263e-012   mR(2)   1.5434470e-011   mR(3)   6.9597661e-012
+==x=x=== end frc func ===x=x==
+
+      RotaryWingSim  
+       u                w              q
+x   -0.185681      -0.143375        1.287180
+z   -0.054798      -1.282859        0.041238
+m    0.002502       0.011139       -0.294951
+
+      Measured  Data
+       u                w              q
+x   -0.230000      -0.205000        1.700000
+z   -0.125200      -1.180000        1.250000
+m   -0.001000       0.015000       -0.725000
+
+
+f2 =
+
+   1.0000             2.0494             2.2321 + 0.0000i   1.0585 + 0.0000i   0.3759 + 0.0000i
+
+z1  -1.54030    0.00000j
+z2  -0.32592    0.00000j
+z3   0.05137    0.21945j
+z4   0.05137   -0.21945j
+
+Routh D       -0.054
+
+z1  -1.65463    0.00000j
+z2  -0.30694    0.20393j
+z3  -0.30694   -0.20393j
+z4   0.13351    0.00000j
+
+Routh D        0.260
+
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    4.000    dxCG    0.500    iRigMR    9.0
+cTs 0.08504   cT 0.00280   cLs 5.28242   cL 0.17388   Qrot       0.0
+aN     0.05395°    a1    0.05298°   b1    0.02395°
+Br   aN     3.09°       a1    3.04°      b1    1.37°
+716  aN     2.75°       a1    2.52°      b1    0.66°
+mmt  aN     6.91°       a1    1.59°      b1    3.02°
+mu  0.178      oM 39.300[1/s]  n 375.3[1/min]   oMR  149.7[m/s]   oMR  491.3[ft/s]
+lamD   0.01608     lamI   0.00784     lamNf    0.00824     mu*a1    0.00784
+A1S   -0.00312°    B1S    0.14952°
+A1S   -0.18°       B1S    8.57°
+alfaNf  5.17°  alfaD  7.69°   alfaS 13.73°   alSm    -6.05°
+thtaN      4.60°       thtaClmb    -0.00      thtaTR    -0.05°
+Trim   phi    -0.08°    thta     4.73°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0216  dDrg2   0.4500
+vBx    26.73    vBy    -0.00    vBz     2.21    V    87.98 [fps]
+vEx    60.15    vEy     0.00    vEz    -0.00    V    60.15 [mph]
+MR    Fx   319.33   Fz -3502.45   Fx/Fz    3.8°    Fx/Fz2   -5.2°    dxMR    0.0131
+
+fMR(1)          -232.50   fMR(2)            -1.18   fMR(3)         -3509.29
+fTR(1)             0.00   fTR(2)             0.00   fTR(3)             0.00
+fPR(1)          1229.28   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)         -697.09   fFus(2)           -0.07   fFus(3)          -42.14
+fFN(1)            -5.71   fFN(2)             6.11   fFN(3)             0.00
+fHS(1)            -2.35   fHS(2)             0.00   fHS(3)            30.33
+fCG(1)          -291.62   fCG(2)            -4.86   fCG(3)          3521.09
+fWN(1)            -0.00   fWN(2)             0.00   fWN(3)            -0.00
+fR(1)  -8.9332973e-012   fR(2)  -2.6805225e-012   fR(3)   1.8500037e-011
+
+Moment Equilibrium
+mMR(1)            -2.48   mMR(2)           -45.83   mMR(3)             0.18
+mTR(1)             0.00   mTR(2)             0.00   mTR(3)            -0.00
+mPR(1)             0.00   mPR(2)            -0.00   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)            0.02   mFus(3)           18.63
+mFN(1)             2.48   mFN(2)             2.32   mFN(3)           -18.81
+mHS(1)             0.00   mHS(2)            43.49   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)            -0.00   mWN(3)             0.00
+mR(1)  -5.4223293e-013   mR(2)  -4.5416879e-012   mR(3)   7.3789863e-012
+==x=x=== end frc func ===x=x==
+
+      RotaryWingSim  
+       u                w              q
+x   -0.190583      -0.105490        1.287010
+z   -0.068409      -1.129437       -0.173183
+m    0.004163       0.003346       -0.298246
+
+      Measured  Data
+       u                w              q
+x   -0.230000      -0.205000        1.700000
+z   -0.125200      -1.180000        1.250000
+m   -0.001000       0.015000       -0.725000
+
+
+f2 =
+
+   1.0000             1.7672             1.4322 - 0.0000i   0.5132 + 0.0000i   0.1358          
+
+z1  -1.24833    0.00000j
+z2  -0.44525    0.00000j
+z3   0.03765    0.27843j
+z4   0.03765   -0.27843j
+
+Routh D       -0.048
+
+z1  -1.65463    0.00000j
+z2  -0.30694    0.20393j
+z3  -0.30694   -0.20393j
+z4   0.13351    0.00000j
+
+Routh D        0.260
+
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    4.000    dxCG    0.500    iRigMR    2.0
+cTs 0.08379   cT 0.00276   cLs 5.23424   cL 0.17229   Qrot       0.0
+aN     0.05311°    a1    0.05183°   b1    0.02359°
+Br   aN     3.04°       a1    2.97°      b1    1.35°
+716  aN     2.71°       a1    2.47°      b1    0.65°
+mmt  aN     6.91°       a1    1.59°      b1    3.02°
+mu  0.178      oM 39.414[1/s]  n 376.4[1/min]   oMR  150.2[m/s]   oMR  492.7[ft/s]
+lamD   0.01616     lamI   0.00775     lamNf    0.00851     mu*a1    0.00765
+A1S   -0.00302°    B1S    0.03745°
+A1S   -0.17°       B1S    2.15°
+alfaNf  5.24°  alfaD  7.71°   alfaS  7.39°   alSm     0.32°
+thtaN      4.50°       thtaClmb    -0.00      thtaTR    -0.05°
+Trim   phi    -0.08°    thta     5.39°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0216  dDrg2   0.4500
+vBx    26.70    vBy    -0.00    vBz     2.52    V    87.98 [fps]
+vEx    60.15    vEy     0.00    vEz    -0.00    V    60.15 [mph]
+MR    Fx   -69.14   Fz -3484.37   Fx/Fz    3.1°    Fx/Fz2    1.1°    dxMR    0.0371
+
+main rotor lift curve slope reduced by 10%
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    4.000    dxCG    0.500    iRigMR    2.0
+cTs 0.07837   cT 0.00258   cLs 5.16040   cL 0.16986   Qrot       0.0
+aN     0.04956°    a1    0.05080°   b1    0.02202°
+Br   aN     2.84°       a1    2.91°      b1    1.26°
+716  aN     2.53°       a1    2.43°      b1    0.59°
+mmt  aN     6.92°       a1    1.54°      b1    2.99°
+mu  0.173      oM 40.485[1/s]  n 386.6[1/min]   oMR  154.2[m/s]   oMR  506.1[ft/s]
+lamD   0.01746     lamI   0.00745     lamNf    0.01013     mu*a1    0.00733
+A1S   -0.00269°    B1S    0.03775°
+A1S   -0.15°       B1S    2.16°
+alfaNf  5.82°  alfaD  8.25°   alfaS  7.99°   alSm     0.27°
+thtaN      4.50°       thtaClmb    -0.00      thtaTR    -0.03°
+Trim   phi    -0.08°    thta     5.99°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0216  dDrg2   0.4500
+vBx    26.67    vBy    -0.00    vBz     2.80    V    87.98 [fps]
+vEx    60.15    vEy     0.00    vEz    -0.00    V    60.15 [mph]
+MR    Fx   -64.12   Fz -3438.51   Fx/Fz    3.1°    Fx/Fz2    1.1°    dxMR    0.0397
+
+
+
+
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    2.850    dxCG    1.650    iRigMR    9.0
+cTs 0.08132   cT 0.00268   cLs 15.22532   cL 0.50115   Qrot       0.0
+aN     0.09817°    a1    0.02672°   b1    0.03255°
+Br   aN     5.63°       a1    1.53°      b1    1.87°
+716  aN     5.02°       a1    1.39°      b1    0.67°
+mmt  aN     7.07°       a1    0.84°      b1    2.48°
+mu  0.098      oM 40.454[1/s]  n 386.3[1/min]   oMR  154.1[m/s]   oMR  505.7[ft/s]
+lamD   0.01653     lamI   0.01359     lamNf    0.01417     mu*a1    0.00237
+A1S   -0.00302°    B1S   -0.03838°
+A1S   -0.17°       B1S   -2.20°
+alfaNf 15.97°  alfaD 17.36°   alfaS 13.77°   alSm     3.59°
+thtaN      4.50°       thtaClmb    -0.00      thtaTR    -0.03°
+Trim   phi    -0.02°    thta     4.77°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0216  dDrg2   0.4500
+vBx    15.59    vBy    -0.00    vBz     1.30    V    51.32 [fps]
+vEx    35.09    vEy     0.00    vEz    -0.00    V    35.09 [mph]
+MR    Fx  -259.07   Fz -3553.49   Fx/Fz   13.2°    Fx/Fz2    4.2°    dxMR    0.0108
+
+
+http://www.combatreform.org/RLIfireforce.htm
+
+++++++++++++++++++++++++++++++++++++
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    3.017    dxCG    1.483    iRigMR    6.0
+cTs 0.08353   cT 0.00275   cLs 5.69735   cL 0.18753   Qrot       0.0
+aN     0.09291°    a1    0.04925°   b1    0.03244°
+Br   aN     5.32°       a1    2.82°      b1    1.86°
+716  aN     4.74°       a1    2.36°      b1    1.09°
+mmt  aN     6.93°       a1    1.51°      b1    2.98°
+mu  0.170      oM 41.203[1/s]  n 393.5[1/min]   oMR  157.0[m/s]   oMR  515.0[ft/s]
+lamD   0.01609     lamI   0.00808     lamNf    0.00908     mu*a1    0.00701
+A1S   -0.00478°    B1S   -0.05261°
+A1S   -0.27°       B1S   -3.01°
+alfaNf  5.78°  alfaD  8.15°   alfaS  2.77°   alSm     5.38°
+thtaN      4.50°       thtaClmb    -0.00      thtaTR    -0.03°
+Trim   phi    -0.08°    thta    -3.23°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0216  dDrg2   0.4500
+vBx    26.77    vBy     0.00    vBz    -1.51    V    87.98 [fps]
+vEx    60.15    vEy     0.00    vEz    -0.00    V    60.15 [mph]
+MR    Fx  -410.86   Fz -3774.35   Fx/Fz   12.2°    Fx/Fz2    6.2°    dxMR   -0.0031
+
+fMR(1)          -803.14   fMR(2)            -1.10   fMR(3)         -3710.73
+fTR(1)             0.00   fTR(2)            -0.00   fTR(3)             0.00
+fPR(1)          1333.59   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)         -716.69   fFus(2)            0.05   fFus(3)          163.71
+fFN(1)           -11.91   fFN(2)             5.67   fFN(3)             0.00
+fHS(1)            -0.91   fHS(2)             0.00   fHS(3)            19.48
+fCG(1)           199.05   fCG(2)            -4.62   fCG(3)          3527.54
+fWN(1)            -0.00   fWN(2)             0.00   fWN(3)            -0.00
+fR(1)  -1.3459155e-011   fR(2)  -5.4924953e-012   fR(3)   5.2836802e-012
+
+Moment Equilibrium
+mMR(1)            -2.30   mMR(2)            11.40   mMR(3)             0.50
+mTR(1)            -0.00   mTR(2)             0.00   mTR(3)             0.00
+mPR(1)             0.00   mPR(2)            -0.00   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)          -50.00   mFus(3)           18.65
+mFN(1)             2.30   mFN(2)             4.84   mFN(3)           -19.15
+mHS(1)             0.00   mHS(2)            33.75   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)            -0.00   mWN(3)             0.00
+mR(1)  -4.5372595e-012   mR(2)  -8.0231753e-012   mR(3)   1.2494894e-011
+==x=x=== end frc func ===x=x==
+
+      RotaryWingSim  
+       u                w              q
+x   -0.239963      -0.139683        0.835100
+z   -0.191137      -1.049979        0.123144
+m    0.004348       0.007080       -0.215732
+
+
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    3.017    dxCG    1.483    iRigMR    6.0
+cTs 0.08658   cT 0.00285   cLs 15.27689   cL 0.50285   Qrot       0.0
+aN     0.09647°    a1    0.02757°   b1    0.03336°
+Br   aN     5.53°       a1    1.58°      b1    1.91°
+716  aN     4.93°       a1    1.43°      b1    0.68°
+mmt  aN     7.07°       a1    0.87°      b1    2.51°
+mu  0.101      oM 39.181[1/s]  n 374.1[1/min]   oMR  149.3[m/s]   oMR  489.8[ft/s]
+lamD   0.01537     lamI   0.01398     lamNf    0.01284     mu*a1    0.00252
+A1S   -0.00316°    B1S   -0.04292°
+A1S   -0.18°       B1S   -2.46°
+alfaNf 14.92°  alfaD 16.35°   alfaS 12.46°   alSm     3.89°
+thtaN      4.50°       thtaClmb    -0.00      thtaTR    -0.03°
+Trim   phi    -0.03°    thta     6.46°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0216  dDrg2   0.4500
+vBx    15.54    vBy    -0.00    vBz     1.76    V    51.32 [fps]
+vEx    35.09    vEy     0.00    vEz    -0.00    V    35.09 [mph]
+MR    Fx  -277.13   Fz -3547.60   Fx/Fz   10.5°    Fx/Fz2    4.5°    dxMR    0.0636
+
+fMR(1)          -646.44   fMR(2)            -0.37   fMR(3)         -3499.20
+fTR(1)             0.00   fTR(2)             0.00   fTR(3)             0.00
+fPR(1)          1316.60   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)         -268.49   fFus(2)           -0.01   fFus(3)         -120.77
+fFN(1)            -4.01   fFN(2)             1.91   fFN(3)             0.00
+fHS(1)            -0.21   fHS(2)             0.00   fHS(3)           109.23
+fCG(1)          -397.45   fCG(2)            -1.53   fCG(3)          3510.73
+fWN(1)            -0.00   fWN(2)             0.00   fWN(3)             0.00
+fR(1)  -3.5789178e-011   fR(2)  -7.9813933e-012   fR(3)   5.2019037e-011
+
+Moment Equilibrium
+mMR(1)            -0.78   mMR(2)          -222.52   mMR(3)             0.17
+mTR(1)             0.00   mTR(2)             0.00   mTR(3)            -0.00
+mPR(1)             0.00   mPR(2)            -0.00   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)           31.66   mFus(3)            6.30
+mFN(1)             0.78   mFN(2)             1.63   mFN(3)            -6.47
+mHS(1)             0.00   mHS(2)           189.23   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)             0.00   mWN(3)             0.00
+mR(1)  -5.2778892e-012   mR(2)   8.6305705e-012   mR(3)   1.5623947e-011
+==x=x=== end frc func ===x=x==
+
+      RotaryWingSim  
+       u                w              q
+x   -0.174122      -0.321348        0.796335
+z   -0.291415      -0.691430        0.307400
+m    0.001892       0.053251       -0.185867
+
+
+
+-----------------------
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    3.017    dxCG    1.483    iRigMR    7.0
+cTs 0.08663   cT 0.00285   cLs 15.24142   cL 0.50168   Qrot       0.0
+aN     0.05501°    a1    0.02762°   b1    0.02778°
+Br   aN     3.15°       a1    1.58°      b1    1.59°
+716  aN     2.81°       a1    1.43°      b1    0.39°
+mmt  aN     7.07°       a1    0.87°      b1    2.51°
+mu  0.101      oM 39.124[1/s]  n 373.6[1/min]   oMR  149.1[m/s]   oMR  489.1[ft/s]
+lamD   0.01541     lamI   0.01396     lamNf    0.01287     mu*a1    0.00253
+A1S   -0.00185°    B1S   -0.03092°
+A1S   -0.11°       B1S   -1.77°
+alfaNf 14.90°  alfaD 16.33°   alfaS 13.13°   alSm     3.20°
+thtaN      4.50°       thtaClmb    -0.00      thtaTR    -0.03°
+Trim   phi    -0.03°    thta     6.13°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0216  dDrg2   0.4500
+vBx    15.55    vBy    -0.00    vBz     1.67    V    51.32 [fps]
+vEx    35.09    vEy     0.00    vEz    -0.00    V    35.09 [mph]
+MR    Fx  -232.62   Fz -3542.16   Fx/Fz   10.8°    Fx/Fz2    3.8°    dxMR    0.0526
+
+fMR(1)          -662.57   fMR(2)            -0.37   fMR(3)         -3487.41
+fTR(1)             0.00   fTR(2)             0.00   fTR(3)             0.00
+fPR(1)          1305.31   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)         -261.05   fFus(2)           -0.01   fFus(3)         -114.81
+fFN(1)            -4.02   fFN(2)             1.92   fFN(3)             0.00
+fHS(1)            -0.25   fHS(2)             0.00   fHS(3)            89.29
+fCG(1)          -377.43   fCG(2)            -1.54   fCG(3)          3512.94
+fWN(1)            -0.00   fWN(2)             0.00   fWN(3)            -0.00
+fR(1)  -1.0336666e-011   fR(2)  -2.4240610e-012   fR(3)   2.2673958e-011
+
+Moment Equilibrium
+mMR(1)            -0.78   mMR(2)          -183.27   mMR(3)             0.17
+mTR(1)             0.00   mTR(2)             0.00   mTR(3)            -0.00
+mPR(1)             0.00   mPR(2)            -0.00   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)           26.96   mFus(3)            6.31
+mFN(1)             0.78   mFN(2)             1.63   mFN(3)            -6.47
+mHS(1)             0.00   mHS(2)           154.68   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)            -0.00   mWN(3)             0.00
+mR(1)  -1.8834934e-012   mR(2)   6.2559889e-013   mR(3)   4.4479975e-012
+==x=x=== end frc func ===x=x==
+
+      RotaryWingSim  
+       u                w              q
+x   -0.176442      -0.297306        1.324802
+z   -0.292249      -0.709813        0.188738
+m    0.004031       0.064204       -0.455738
+
+http://www.skynet.ie/~dan/war/flightsa/Flight_AS1944-2.pdf
+http://www.youtube.com/watch?v=URIHiUsKxVs  Vietnam
+http://www.youtube.com/watch?v=NO8GDYuwcqA  desert tech
+Tanner, W. H., Generalized Rotor Performance Method, Sikorsky Aircraft Report SER-50309, May 4, 1964.

@@ -1,0 +1,120 @@
+>> reading aircraft data from ./data/KelletKD1tws2.dat
+# fuselage coefficients   ./data/R4BCoeff.cff   #
+##     Reading # Data   ./data/fDataKD1tws1.flt   #
+Start reading flight data
+End read flight data
+
+nRot      198.0 1/min    oM     20.73 rad/s
+oMR       126.40 m/s     oMR   414.69 ft/s
+cTs   0.08558208     cT  0.0041     cT2sa  0.0323     cL  0.3162
+Optimization terminated successfully:
+ Relative function value changing by less than OPTIONS.TolFun
+mu    0.15740  oMR   124.1    oMRft   407.1    nRt   194.4    alfaD    15.2°
+##     Reading # Data   ./data/cntrlrS51.cnt   #
+Start reading control data
+End read controler data
+#3 phiHS   0.32   xh  18.50   ZHS    -829.26
+#3 phiHS   0.18   xh  10.60   ZHS    -340.83
+
+ vG  20.24   alfNf  13.43    oM    20.62     vi  1.16048     cT  0.00392  dDrgN  0.01389
+
+==a=a=== frc func ===a=a==
+xMR    7.250    xcg    5.250    dxCG    2.000    iRigMR    0.0
+cTs 0.00394   cT 0.00392   cLs 6.08920   cL 0.29074
+aN     0.09533°    a1    0.04055°   b1    0.03315°
+Br   aN     5.46°       a1    2.32°      b1    1.90°
+591  aN     3.50°       a1    0.56°      b1    0.77°
+mu  0.158      lamD    0.02991    lamI    0.00923     mu*a1    0.00154     lamNf    0.02837
+A1S    0.00562°    B1S   -0.10597°
+A1S     0.32°     B1S    -6.07°
+alfaNf 13.43°  alfaD 13.99°   alfaS  7.35°   a1Sm     6.63°
+thtaN      3.20°    thtaTR     6.81°
+Trim   phi    -0.03°    thta     7.38°    psi     0.00°
+vBx    20.07    vBy    -0.00    vBz     2.60
+vEx    45.40    vEy     0.00    vEz    -0.00    V    45.40
+fMR(1)         -1013.79   fMR(2)            -0.00   fMR(3)         -8860.40
+fTR(1)             0.00   fTR(2)             0.00   fTR(3)             0.00
+fPR(1)          2632.45   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)         -330.29   fFus(2)           -0.03   fFus(3)          -65.90
+fFN(1)           -57.38   fFN(2)             5.66   fFN(3)             0.00
+fHS(1)           -31.16   fHS(2)             0.00   fHS(3)          -340.83
+fCG(1)         -1199.72   fCG(2)            -5.63   fCG(3)          9267.28
+fWN(1)            -0.12   fWN(2)             0.00   fWN(3)            -0.15
+fR(1)   7.3608619e-012   fR(2)   5.3326232e-012   fR(3)  -1.5576984e-011
+
+Moment Equilibrium
+mMR(1)            -0.00   mMR(2)          1321.94   mMR(3)             0.00
+mTR(1)             0.00   mTR(2)             0.00   mTR(3)             0.00
+mPR(1)             0.00   mPR(2)            -0.00   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)           64.69   mFus(3)           11.82
+mFN(1)             0.00   mFN(2)            14.57   mFN(3)           -11.82
+mHS(1)             0.00   mHS(2)         -1401.41   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)             0.21   mWN(3)             0.00
+mR(1)  -2.2956783e-012   mR(2)  -5.8003657e-011   mR(3)  -1.3320900e-011
+==x=x=== end frc func ===x=x==
+MR      Fx -1013.79    Fz -8860.40   thtaClmb    -0.00
+MR2     Fx -1013.79    Fz -8860.40
+dxMR    0.4364  Fx/Fz    6.5°        mu   0.15751   oM  20.6  n  196.9
+
+
+ans =
+
+    52
+
+
+f2 =
+
+   1.0000             0.8517             2.7694 + 0.0000i  -0.0129             0.0599          
+
+z1  -0.48323    1.60310j
+z2  -0.48323   -1.60310j
+z3   0.01467    0.14230j
+z4   0.01467   -0.14230j
+
+Routh D       -0.218
+
+
+      naca-tm-73254 data
+       u                w              q
+x   -0.024400       0.066500        0.498100
+z    0.012300      -0.875700       -0.492900
+m    0.010600      -0.008800       -0.523000
+RotaryWingSim End
+
+http://www.criticalpast.com/video/65675072946_Kellett-autogyro_descends-vertically_165-horse-power_continental-A-70-engine
+http://www.criticalpast.com/video/65675047810_autogyro-lands-in-town_folding-rotors_design-displayed_pilot-of-autogyro
+http://www.seabee.info/seabee_history_rc3.htm
+http://www.criticalpast.com/video/65675072960_autogyro_National-Air-Races_fly-in-formation_Pitcairn_Ray_Faulkner
+
+http://i174.photobucket.com/albums/w90/coastdef/KellettYG-1.jpg
+http://www.eaa.org/apps/galleries/gallery.aspx?ID=182
+
+http://www.horshamhistory.org/images/Strawbridges/autogiro.jpg
+http://www.warbirdinformationexchange.org/phpBB3/viewtopic.php?f=3&t=29318&start=0
+http://airpigz.squarespace.com/storage/hi-res/B-52_From_Above_7-21-10.jpg
+http://airpigz.com/blog/2009/12/28/shaun-lunts-blog-continues-to-inspire-long-after-his-passing.html
+http://link.brightcove.com/services/player/bcpid626910413?bclid=9230910001&bctid=31557690001
+http://www.flightgraphics.com/grand-central/pitcairn-pa-18.html
+http://www.ladieslovetaildraggers.com/category/llt-videos/
+http://www.ladieslovetaildraggers.com/blog/time-to-take-your-pick/
+
+http://www.flightgraphics.com/aviation-art/
+http://www.britishpathe.com/record.php?id=28965
+
+http://www.britishpathe.com/record.php?id=28965
+http://www.britishpathe.com/record.php?id=28969
+http://www.britishpathe.com/record.php?id=28973
+http://www.britishpathe.com/record.php?id=28980
+
+
+
+http://www.britishpathe.com/record.php?id=21334
+http://www.britishpathe.com/record.php?id=50075
+
+
+Carol Carr
+http://www.britishpathe.com/video/carole-carr/
+
+Airship Squardron 24
+http://www.flickr.com/photos/publicresourceorg/sets/72157600215541065/detail/?page=5
+

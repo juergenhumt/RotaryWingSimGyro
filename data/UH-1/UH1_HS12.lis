@@ -1,0 +1,231 @@
+>> reading aircraft data from ./data/UH-1/RotDatUH1a.dat
+Twist NOT included
+# fuselage coefficients   ./data/UH-1/UH1-H.cff   #
+# rotor angle coefficients   ./data/UH-1/KD1_angles.cff   #
+# Data   ./data/UH-1/fDataUH1_1NN_2.flt   #
+Start reading Flight Data section
+End reading Flight Data section
+# Data   ./data/UH-1/fDataUH1_1NN_2.flt   #
+Start reading Rotor Data section
+End reading Rotor Data section
+
+nRot   oMR       249.54 m/s     oMR   818.71 ft/s
+cTs   0.04596474     cT  0.0021     cT2sa  0.0155     cL  0.1043
+rRot     7.35     sigma  0.0462
+##     Reading # Data   ./data/cntrlrS51.cnt   #
+Start reading control data
+End read controler data
+helicopter mode: iterating thtaN
+           dlc           dle           dla           dlp           phiFus        thtaFus       oM
+1  tN    -5.059e+002    3.430e+002    1.191e+000    0.000e+000    8.819e+000   -3.237e+004    0.000e+000
+2  A1    -2.077e+002    9.286e+001    2.469e+002    4.251e+004    4.642e+005   -7.273e+003    0.000e+000
+3  B1    -5.208e+003    2.086e+003   -1.551e+001    0.000e+000    3.861e+002   -2.134e+005    0.000e+000
+4  tT    -4.300e+002    1.922e+002    5.111e+002    8.927e+004    9.171e+005   -1.506e+004    0.000e+000
+5  fi     1.858e+003   -5.758e+002   -3.049e+001    0.000e+000    5.601e+001   -3.358e+004    0.000e+000
+6  tH     0.000e+000    0.000e+000    0.000e+000   -3.665e+005   -3.766e+006    1.167e+000    0.000e+000
+7  oM     4.521e-001   -6.453e-001   -3.357e-003    0.000e+000   -9.290e-002    5.075e+001    1.317e-003
+Det 4.7312778e+020
+           dlc           dle           dla           dlp           phiFus        thtaFus       oM
+1  tN     2.761e-003    5.025e-006   -4.304e-004   -1.715e-005    8.003e-005   -3.593e-006   -0.000e+000
+2  A1     8.189e-003    1.475e-005   -1.098e-003   -1.115e-004   -8.717e-004   -2.545e-005   -0.000e+000
+3  B1    -3.825e-004   -2.041e-006   -9.384e-005    1.961e-003    8.639e-005    4.773e-004   -0.000e+000
+4  tT     5.404e-010   -3.740e-004   -2.110e-010    1.807e-004   -4.439e-010   -2.098e-006   -0.000e+000
+5  fi    -4.866e-011    3.640e-005    1.902e-011   -1.759e-005    3.996e-011   -6.135e-008   -0.000e+000
+6  tH     1.271e-005    8.763e-008   -4.908e-006   -8.463e-007   -1.048e-005   -1.959e-007   -0.000e+000
+7  oM     2.575e+000    4.692e-003   -2.014e-001   -1.240e-002   -5.044e-002   -2.476e-003    7.596e+002
+Det 2.1135939e-021
+
+==a=a=== frc func ===a=a==
+xMR   11.125    xcg   11.125    dxCG    0.000    iRigMR   -5.0
+mu  0.196    cTs 0.04688   cT 0.00216   cLs 2.26200   cL 0.10444   Qrot 1.331e+004   dQ -6.0e-003
+aN     0.07731°    a1    0.05436°   b1    0.02618°
+Br   aN     4.43°       a1    3.11°      b1    1.50°
+716  aN     3.49°       a1    2.66°      b1    0.92°
+mmt  aN     7.89°       a1    1.51°      b1    1.99°
+oM 33.929[1/s]   oMR  249.5[m/s]   oMR  818.7[ft/s]    n 324.0   nmmt 220.9 [1/min]
+lamD  -0.03952     lamI   0.00441     lamNf   -0.04861     lammt    0.02092
+A1S   -0.02267°    B1S    0.18040°
+A1S   -1.30°       B1S   10.34°
+alfaNf -12.71°  alfaD   -10.05°   alfaS -2.37°   alSm    -7.68°   alNfmmt     9.24° 
+thtaN  14.76°  thta1 -10.88°  thtaClmb  -0.00°     thtaTR    -0.07°
+Trim   phi    -0.12°    thta     2.63°    psi    -0.10°
+dDrgN   0.0085  dDrg1  -0.0216  dDrg2   0.4000
+vBx    50.09    vBy     0.08    vBz     2.30    V   164.52 [fps]
+vEx   112.48    vEy     0.00    vEz    -0.00    V   112.48 [mph]
+### heli deriv 3104 ###
+cHstrt     0.00042
+alfaD     -10.048°
+lamDstrt    -0.02389
+cTs        0.04688  cT      0.00216
+a1 br D      2.260°   a1 Br D mod      2.482°  a1 716      2.606°
+b1 br D      0.000°   b1 Br D mod      0.000°  b1 716      0.940°
+lamD   -0.04861   lamN   -0.05753  lamI    0.00441  vi    3.61212
+thtaN calc      7.853°
+hC Pr       0.00131  hC Br       0.00041
+alfaD      -5.392°
+alfaDclc    -12.299°  alfaDinp     -5.392°   alfaD     -5.392°
+qCsBram    0.00387   qCBram    0.00018
+aPr       0.496°
+dhcdmu    0.00200
+dlamdalfaD    0.18074
+dv1dthtaN   19.77616
+aN        3.608°
+Optimization terminated successfully:
+ Relative function value changing by less than OPTIONS.TolFun
+da1dmu 716    1.92857
+da1alfaNf 716   -1.34297
+da1dmu 716 -10953740314.22565
+alfaD 12.9177754   102.4875388
+## a1 deriv ##
+4/3*B*thta + lam     0.10047
+da1dmu        0.19544
+da1dmu        0.19563
+da1dmu 716 -10953740314.22565
+da1dthtaN    0.49267
+da1dalfNf    0.07369
+da1dw        0.34019
+da1dalfD     0.07792
+da1dq        -0.04819
+## b1 deriv ##
+b1 br D      1.231°
+db1dthtaN    0.49267
+db1dalfNf    0.07369
+db1dmu      -0.02760
+## cTs deriv ##
+dcTsdthtaN    0.89830   dcTdthtaN     0.04147
+dcTsdthtaN -110935136.08197   dcTdthtaN  -5121886.73395
+dcTsdalfaD    0.23337   dcTdalfaD    0.01077
+dcTsalfaNf    0.25351   dcTdalfaNf    0.01170
+dcTsdmu (1)  -0.18682   dcTdmu       -0.00863
+dcTsdmu (2)  -0.01382   dcTdmu       -0.00064
+dcTsdmu (3)  -0.01247   dcTdmu       -0.00058
+dcTsdmu (4)  -0.74406   dcTdmu       -0.03435
+dcTsdw                     -1.16695
+dcTsdw                     -1.26523
+## cHs deriv ##
+dcHsdthtaN    0.07974   dcHdthtaN     0.00368
+dcHsalfaNf    0.01549   dcHdalfaNf    0.00072
+dcHsmu        0.02263   dcHdmu        0.00104
+dcHsdq                  -0.00213
+dhcdmu                  0.00425
+dcHsdw                  -0.04888
+dcHsdalfaD              -0.00332
+## cQs deriv ##
+dcQsdthtaN    0.05952   dcQdthtaN     0.00368
+dcQsdalfaNf    0.00594   dcQdalfaNf    0.00027
+dcQsdmu       -0.08200   dcQdmu   -0.00379
+## aPr deriv ##
+daPrdthtaN    1.53493
+daPralfaNf    0.28361
+daPrdmu        0.19563
+daPrdq    0.04753
+
+### Tail Deriv ###
+vIx         1.7414
+epsDwn       0.0356      2.0396°
+epsMH        0.0450      2.5790°
+cMs      0.000000
+xh          0.1899     10.8782°
+a1sBR         -0.2371    -13.5837°
+jB           Stability Parameters
+xU=   -cTs*da1dmu           - alfaD*dcTsdMu      - dhcdmu
+-  0.046877*  0.195629 -   0.225458* -0.186820 -   0.001045
+xW=  -cTs*da1dalfaD        - alfaD*dcTsdalfaD      - dhcdalfaD
+-  0.046877*  0.077920 -   0.225458*  0.233369 -  -0.003316
+xU      -0.057706
+xW      -0.270117
+xW       0.318189
+xQ      -0.073467
+zU       0.186820
+zW      -1.190457
+zQ       0.374243
+alfaS      20.597°
+mU       0.258468 + mUT  -0.133675  =   0.124793
+mW      -1.544492 + mWT  -0.050566  =  -1.595059
+mQ       0.430557 + mQT  -0.409792  =   0.020765
+
+   deriv 3104
+       u                w              q
+x   -0.057706      0.318189    -0.073467
+z    0.186820     -1.190457     0.374243
+m    0.016967     -0.216872     0.002823
+
+    measured  data
+       u                w              q
+x   -0.056400       0.136300        0.527100
+z    0.127600      -1.234900       -1.318600
+m    0.015900      -0.030000       -0.660100
+
+B1Br        0.0541      3.1023°
+thtaFus       -0.0937     -5.3677°
+### End Deriv 3104 ###
+
+### Heli Deriv NL ###
+
+### End  Deriv NL ###
+
+MR    Fx  2138.80   Fz -28376.46   Fx/Fz   -9.3°    Fx/Fz2   -4.3°    dxMR    0.3394
+
+fMR(1)          4603.83   fMR(2)          -107.35   fMR(3)        -28082.07
+fTR(1)             0.00   fTR(2)           119.99   fTR(3)             0.00
+fPR(1)             0.00   fPR(2)             0.00   fPR(3)             0.00
+fFus(1)        -3182.12   fFus(2)           56.49   fFus(3)         -898.46
+fFN(1)            -7.68   fFN(2)           -10.47   fFN(3)             0.00
+fHS(1)          -151.56   fHS(2)             0.00   fHS(3)          1474.09
+fCG(1)         -1262.47   fCG(2)           -58.66   fCG(3)         27506.44
+fWN(1)            -0.00   fWN(2)             0.00   fWN(3)            -0.00
+fR(1)   1.9766101e-012   fR(2)   9.7884367e-011   fR(3)  -9.7989883e-012
+
+Moment Equilibrium
+mMR(1)          -222.20   mMR(2)         -9529.88   mMR(3)             0.00
+mTR(1)           251.98   mTR(2)             0.00   mTR(3)         -1034.69
+mPR(1)             0.00   mPR(2)            -0.00   mPR(3)             0.00
+mFus(1)            0.00   mFus(2)          449.95   mFus(3)          953.99
+mFN(1)           -29.78   mFN(2)            21.86   mFN(3)            80.70
+mHS(1)             0.00   mHS(2)          9058.07   mHS(3)             0.00
+mWN(1)             0.00   mWN(2)             0.00   mWN(3)             0.00
+mR(1)   2.0548896e-010   mR(2)  -5.2869587e-012   mR(3)  -8.3923624e-010
+==x=x=== end frc func ===x=x==
+
+      RotaryWingSim  
+       u                w              q
+x   -0.136464       0.210295        0.355934
+z    0.256432      -1.561172       -0.887190
+m    0.007014      -0.020451       -0.129871
+
+      Measured  Data
+
+       u                w              q
+x   -0.056400       0.136300        0.527100
+z    0.127600      -1.234900       -1.318600
+m    0.015900      -0.030000       -0.660100
+
+E =   0.00571    44951.26
+
+f2 =
+
+   1.0000             1.8212             1.4757             0.2344 - 0.0000i   0.0550          
+
+z1  -0.88457    0.67341j
+z2  -0.88457   -0.67341j
+z3  -0.02918    0.21079j
+z4  -0.02918   -0.21079j
+
+Routh D        0.175
+
+E =   0.01581   124535.65
+
+f2 =
+
+   1.0000             1.9701             2.4886 + 0.0000i   0.2968 + 0.0000i   0.1510          
+
+z1  -0.96988    1.15307j
+z2  -0.96988   -1.15307j
+z3  -0.00582    0.26129j
+z4  -0.00582   -0.26129j
+
+Routh D        0.117
+
+RotaryWingSim End
+>>
+

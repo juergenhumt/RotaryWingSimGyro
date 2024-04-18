@@ -1,0 +1,38 @@
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    3.250    dxCG    1.250    iRigMR   11.2
+cTs 0.05512   cT 0.00181   cLs 5.41648   cL 0.17829   Qrot       0.0
+aN     0.13196°    a1    0.02178°   b1    0.03371°
+Br   aN     7.56°       a1    1.25°      b1    1.93°
+716  aN     6.79°       a1    1.09°      b1    1.29°
+mmt  aN     7.01°       a1    1.23°      b1    2.78°
+mu  0.140      oM 49.677[1/s]  n 474.4[1/min]   oMR  189.3[m/s]   oMR  621.0[ft/s]
+lamD   0.01994     lamI   0.00645     lamNf    0.01730     mu*a1    0.00265
+A1S   -0.00251°    B1S    0.04975°
+A1S   -0.14°       B1S    2.85°
+alfaNf  9.67°  alfaD 10.76°   alfaS 12.52°   alSm    -1.76°
+thtaN      2.00°       thtaClmb    -0.00      thtaTR    -0.05°
+Trim   phi    -0.08°    thta     1.32°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0226  dDrg2   0.4500
+vBx    26.81    vBy    -0.00    vBz     0.62    V    87.98 [fps]
+vEx    60.15    vEy     0.00    vEz    -0.00    V    60.15 [mph]
+MR    Fx    59.18   Fz -3638.84   Fx/Fz   10.3°    Fx/Fz2   -0.9°    dxMR    0.0000
+
+
+==a=a=== frc func ===a=a==
+xMR    4.500    xcg    3.250    dxCG    1.250    iRigMR    8.2
+cTs 0.05512   cT 0.00181   cLs 5.41126   cL 0.17812   Qrot       0.0
+aN     0.13196°    a1    0.02179°   b1    0.03371°
+Br   aN     7.56°       a1    1.25°      b1    1.93°
+716  aN     6.79°       a1    1.09°      b1    1.29°
+mmt  aN     7.01°       a1    1.23°      b1    2.78°
+mu  0.140      oM 49.653[1/s]  n 474.2[1/min]   oMR  189.2[m/s]   oMR  620.7[ft/s]
+lamD   0.01994     lamI   0.00645     lamNf    0.01729     mu*a1    0.00265
+A1S   -0.00250°    B1S   -0.00260°
+A1S   -0.14°       B1S   -0.15°
+alfaNf  9.67°  alfaD 10.75°   alfaS  9.52°   alSm     1.24°
+thtaN      2.00°       thtaClmb    -0.00      thtaTR    -0.05°
+Trim   phi    -0.08°    thta     1.32°    psi     0.00°
+dDrgN   0.0085  dDrg1  -0.0226  dDrg2   0.4500
+vBx    26.81    vBy    -0.00    vBz     0.62    V    87.98 [fps]
+vEx    60.15    vEy     0.00    vEz    -0.00    V    60.15 [mph]
+MR    Fx  -131.21   Fz -3633.37   Fx/Fz   10.3°    Fx/Fz2    2.1°    dxMR    0.0000

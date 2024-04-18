@@ -1,0 +1,36 @@
+%
+%  Controler Data
+%
+  0.0          % c.Kp
+  0.0          % c.Kd
+  0.0          % c.Ki
+%
+ 25.0          % PIDphi.Kp      *c.Kp
+  0.0          % PIDphi.Kd      *c.Kd
+  2.0          % PIDphi.Ki      *c.Ki
+  8.0          % PIDphi.dlaUpr 
+ -8.0          % PIDphi.dlaLwr 
+%              %               
+  5.0          % PIDpsi.Kp      *c.Kp
+  0.0          % PIDpsi.Kd      *c.Kd
+  0.5          % PIDpsi.Ki      *c.Ki
+  18.0         % PIDpsi.dlpUpr  
+ -18.0         % PIDpsi.dlpLwr  
+%              %                
+  25.0         % PIDthta.Kp     *c.Kp
+   0.0         % PIDthta.Kd     *c.Kd
+   2.5         % PIDthta.Ki     *c.Ki
+  12.0         % PIDthta.dleUpr 
+ -12.0         % PIDthta.dleLwr 
+%              %                
+  0.00150      % PIDcllt.Kp     *c.Kp
+  0.0          % PIDcllt.Kd     *c.Kd
+  0.001        % PIDcllt.Ki     *c.Ki
+  8.0          % PIDcllt.zUpr   
+ -8.0          % PIDcllt.zLwr   
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
